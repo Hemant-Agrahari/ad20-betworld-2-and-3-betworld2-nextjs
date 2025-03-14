@@ -261,7 +261,7 @@ const Header = ({ handleSearch, searchQuery, setActive, active }: any) => {
 
   return (
     <>
-      <header className={`header${active ? '' : ''}`}>
+      <header className={`header ${active ? '' : ''}`}>
         <div className="header_toggle">
           <Image
             src={SidbarArrow}

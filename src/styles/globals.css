@@ -147,342 +147,8 @@ button {
   cursor: not-allowed !important;
 }
 
-/*------ Header start ------*/
-.header {
-  width: 100%;
-  height: 75px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 1rem;
-  padding: 0 0.5rem;
-  background-color: var(--gray-800);
-  transition: 0.5s;
-  z-index: 100;
-}
-
-.btn {
-  border-radius: 8px !important;
-}
-
-.loginSignUp-btn {
-  display: flex;
-  margin-block: 22px;
-}
-
-.loginSignUp-btn .btn {
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  padding: 7px 25px;
-}
-
-.btn-gradient {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  border: 1px solid #6458e3 !important;
-}
-
-.btn_light {
-  border: 1px solid var(--gray-300) !important;
-  background-color: var(--gray-600) !important;
-}
-
-.loginSignUp-btn .signUp-btn {
-  margin-left: 10px;
-}
-
-main .loginSignUp-btn .signUp-btn {
-  margin-left: 0px;
-  background: var(--gray-400);
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  border: 1px solid #6458e3 !important;
-  padding: clamp(6px, 1vw, 12px) clamp(16px, 2vw, 30px);
-}
-
-.loginSignUp-btn .backtopbtn {
-  background: var(--gray-400);
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  border: 1px solid #6458e3 !important;
-  padding: clamp(6px, 1vw, 12px) clamp(16px, 1vw, 30px) !important;
-}
-
-/* .loginSignUp-btn .btn:hover {
-  background-color: #0f131a;
-} */
-
-.sideBarArrow {
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.sideBarArrowOper {
-  transform: rotate(180deg);
-}
-
-.header_toggle {
-  color: var(--white);
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: clamp(5px, 1.5vw, 20px);
-}
-
-.header_toggle .logoMobile {
-  display: none;
-}
-
-.login-btn {
-  color: #fff;
-  font-weight: 600;
-}
-
-.login-btn:hover {
-  color: #fff;
-}
-
-.signUp-btn {
-  font-weight: 600;
-}
-
-.boom_img {
-  margin-left: 2vw;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-.loginSignUp-btn {
-  display: flex;
-  align-items: center;
-}
-
-.modal-btn-losign {
-  width: 100%;
-  padding: clamp(14px, 1vw, 16px);
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  border: 1px solid #6458e3 !important;
-  border-radius: 6px;
-  color: #fff;
-  font-weight: 700;
-  font-size: clamp(16px, 1.5vw, 20px);
-}
-
-.translate-dropdown {
-  margin-left: auto;
-  margin-right: 12px;
-  position: relative;
-}
-
-.translate-dropdown .btn {
-  background: #0f131a;
-  border-radius: 10px;
-  border: 0;
-  padding: 8px 12px;
-}
-
-.translate-dropdown .btn svg {
-  color: #fff;
-  font-size: 22px;
-}
-
-.translate-dropdown .btn:hover {
-  background: linear-gradient(90deg, #4e95ff 0%, #6399ff 19.27%, #284bff 100%);
-}
-
-.translate-dropdown .dropdown-menu {
-  background: #272c4b;
-  border-radius: 7px;
-  box-shadow:
-    0px 5px 5px -3px rgba(0, 0, 0, 0.2),
-    0px 8px 10px 1px rgba(0, 0, 0, 0.14),
-    0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-  padding: 7px;
-  min-width: initial;
-}
-
-.translate-dropdown .dropdown-menu li a {
-  background: #3a4065;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-bottom: 7px;
-  padding: 10px 15px;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.translate-dropdown .dropdown-menu .activeLangCSS {
-  background: linear-gradient(rgb(51, 102, 219) 0%, rgb(47, 69, 159) 100%);
-}
-
-.translate-dropdown .dropdown-menu li:last-child a {
-  margin-bottom: 0;
-}
-
-.translate-dropdown .dropdown-menu li a:hover {
-  background: linear-gradient(180deg, #3366db 0%, #2f459f 100%);
-}
-
-.translate-dropdown .dropdown-menu.show {
-  right: auto !important;
-  left: 50% !important;
-  -webkit-transform: translate(-33%, 0) !important;
-  -o-transform: translate(-33%, 0) !important;
-  transform: translate(-33%, 0) !important;
-  inset: initial !important;
-}
-
-.afterLogin {
-  display: flex;
-  align-items: center;
-}
-
-.balance-deposit {
-  display: flex;
-  align-items: center;
-  background-color: var(--gray-600, #31001b);
-  border: 1px solid var(--gray-300);
-  border-radius: 8px;
-  padding: 2px;
-  margin-left: 15px;
-}
-
-.balance-deposit .balance {
-  font-style: italic;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-  padding: 0 10px;
-  min-width: 78px;
-}
-
-.balance-deposit .balance span {
-  font-weight: 600;
-  font-style: normal;
-  margin-left: 5px;
-  position: relative;
-  top: 2px;
-}
-
-.balance-deposit .deposit-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  color: #ffffff;
-
-  border-radius: 8px;
-  padding: 8px 12px;
-}
-
-.balance-deposit .deposit-btn span {
-  margin-left: 5px;
-}
-
-.balance-deposit .deposit-btn:hover {
-  background-color: var(--gray-300, #a2246b);
-}
-
-.headerProfile {
-  position: relative;
-  margin-left: 15px;
-  border: 1px solid var(--gray-300);
-  border-radius: 8px;
-  background-color: var(--gray-600, #31001b);
-}
-
 .promotion-banner img {
   max-height: 300px;
-}
-
-.headerProfile:before {
-  position: absolute;
-  content: '';
-  left: -15px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1px;
-  height: 16px;
-  background-color: '';
-}
-
-.headerProfile .headerProfile-btn {
-  padding: 5.5px 10px 5.5px 6px;
-  background-color: var(--gray-600);
-  border-radius: 8px;
-}
-
-.headerProfile .headerProfile-btn .profile-img {
-  width: 33px;
-  height: 33px;
-  background-color: #667bff;
-  border-radius: 100%;
-}
-
-.headerProfile .headerProfile-btn .profile-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: 1.7px solid;
-}
-
-@media screen and (max-width: 767px) {
-  .headerProfile {
-    height: 36px;
-    width: 36px;
-    display: grid;
-  }
-
-  .headerProfile .headerProfile-btn .profile-img {
-    width: 28px;
-    height: 28px;
-  }
-}
-
-.headerProfile .headerProfile-btn .profile-name {
-  margin-left: 5px;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  color: #ffffff;
-}
-
-.headerProfile .headerProfile-btn .MuiButton-endIcon {
-  color: #ffffff;
-  transition: 0.5s;
-  position: relative;
-  top: -2px;
-}
-
-.headerProfile .headerProfile-btn:hover {
-  background-color: var(--gray-600);
-}
-
-.headerProfile .headerProfile-btn.active .MuiButton-endIcon {
-  transform: rotate(180deg);
-}
-
-.headerProfile-menu {
-  margin-top: 13px;
-}
-
-.headerProfile-menu .MuiPopover-paper {
-  width: 375px;
-  background: linear-gradient(107.38deg, #171d29 5.92%, #161c25 100%);
-  border-radius: 8px;
-}
-
-.headerProfile-menu .MuiPopover-paper ul {
-  margin: 0;
-  padding: 0;
 }
 
 .hpMenu-top {
@@ -875,45 +541,6 @@ main .loginSignUp-btn .signUp-btn {
   opacity: 0.7;
 }
 
-.headerMsg {
-  margin-left: 15px;
-}
-
-.headerMsg .msgIcon {
-  position: relative;
-  cursor: pointer;
-  background-color: var(--gray-600);
-  border: 1px solid var(--gray-300);
-  padding: clamp(10.5px, 1vw, 10px);
-  border-radius: 8px;
-}
-
-.headerMsg .msgIcon .activeMsg {
-  position: absolute;
-  right: 7px;
-  top: 8px;
-  width: 6px;
-  height: 6px;
-  border-radius: 100%;
-  background: linear-gradient(90deg, #7e43de 0%, #4473e9 98.45%);
-  box-shadow: 0 0 0 1px #141414;
-}
-
-@media screen and (max-width: 767px) {
-  .headerMsg .msgIcon {
-    padding: clamp(5px, 1vw, 5px);
-  }
-
-  .headerMsg .msgIcon .activeMsg {
-    right: 3px;
-    top: 5px;
-  }
-}
-
-.headerMsg .msgIcon:hover {
-  opacity: 0.8;
-}
-
 .box-bonus {
   width: 150px;
   background-color: #2b54e6;
@@ -1101,8 +728,6 @@ main .loginSignUp-btn .signUp-btn {
 
 .g_HignLight {
   cursor: pointer;
-  /* border-radius: 15px;
-  background: #a2246b;*/
 }
 
 .title_template {
@@ -1113,15 +738,6 @@ main .loginSignUp-btn .signUp-btn {
   margin-top: 3px;
   white-space: nowrap;
 }
-
-/* .g_HignLight .title_template {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  
-} */
 
 .topheadermenu-slider .g_HignLight,
 .topmenu-slider .g_HignLight:before {
@@ -1168,11 +784,6 @@ main .loginSignUp-btn .signUp-btn {
   /* border-bottom: 3px solid transparent;
   border-image: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%) 1; */
 }
-
-/* .title_template {
-  font-size: 12px !important;
-  margin-top: 3px !important;
-} */
 
 .Game_Section a {
   text-decoration: none;
@@ -6743,20 +6354,12 @@ img.wheel-border {
     gap: 25px;
   }
 
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(372px - 50px);
-  } */
-
   .homeTabContent-col h6 {
     min-height: 50px;
     font-size: 20px;
   }
 
-  .header_toggle .logo-img {
-    width: 100px;
-    height: none;
-    object-fit: cover;
-  }
+
 }
 
 @media screen and (max-width: 1629px) {
@@ -7608,47 +7211,7 @@ img.wheel-border {
   }
 
   /* header */
-  .header {
-    padding: 0 12px;
-  }
-
-  .header_toggle .logo {
-    display: none;
-  }
-
-  .header_toggle .logoMobile {
-    display: block;
-  }
-
-  .balance-deposit .deposit-btn span {
-    display: none;
-  }
-
-  .headerProfile {
-    margin-left: 7px;
-  }
-
-  .headerProfile:before {
-    display: none;
-  }
-
-  .headerProfile .headerProfile-btn {
-    padding: 0;
-    background-color: transparent;
-    min-width: initial;
-  }
-
-  .headerProfile .headerProfile-btn .profile-name {
-    display: none;
-  }
-
-  .headerProfile .headerProfile-btn .MuiButton-endIcon {
-    display: none;
-  }
-
-  .headerMsg {
-    margin-left: 8px;
-  }
+ 
 
   .translate-dropdown {
     margin-right: 7px;
@@ -8086,22 +7649,6 @@ img.wheel-border {
   .hpMenu-top-vip .user-levelScore .userScore {
     margin-left: 0;
   }
-
-  .header_toggle img {
-    width: 45px;
-    height: auto;
-  }
-  .header_toggle > img {
-    display: none;
-  }
-  .header_toggle .logo-img {
-    width: 80px;
-    height: auto;
-  }
-
-  .balance-deposit .deposit-btn {
-    padding: 4px 8px;
-  }
   .g_section_sub {
     flex: 0 0 88px;
   }
@@ -8136,9 +7683,6 @@ img.wheel-border {
     border: none;
   } */
 
-  .headerMsg {
-    margin-left: 7px;
-  }
 
   .BannerBigHomeSlider {
     height: 135px;
@@ -8442,12 +7986,6 @@ img.wheel-border {
 
   .apexcharts-legend.apexcharts-align-center.apx-legend-position-right {
     right: 25px !important;
-  }
-
-  .header_toggle a img {
-    max-width: 80px;
-    width: 100%;
-    height: auto;
   }
 
   .leaderboard-prize .leaderboardPrize-col .leader-row .leader-col:first-child,
@@ -9826,28 +9364,4 @@ footer .fooLink-desktop .social_icons_wrapper .social_icons_media a {
 .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
   -webkit-text-fill-color: #fff !important;
 }
-@media (max-width: 420px) {
-  .balance-deposit .balance {
-    font-size: 12px;
-    padding: 0 6px;
-  }
-  .balance-deposit .deposit-btn {
-    padding: 3px 1px;
-    width: 25px;
-    height: auto;
-  }
-  .balance-deposit .balance img {
-    max-width: 15px;
-    height: auto;
-  }
-  .headerMsg .msgIcon {
-    padding: 1px;
-  }
-  .headerProfile {
-    margin-left: 4px;
-  }
-  .header_toggle .logo-img {
-    width: 70px;
-    height: auto;
-  }
-}
+

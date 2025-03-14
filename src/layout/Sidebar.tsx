@@ -397,7 +397,7 @@ const Sidebar = ({ active, handleActive }: any) => {
   return (
     <div className="d-md-block d-none">
       {' '}
-      <div className={` sidebar${active ? ' sidebarOpen  ' : ' close'}`}>
+      <div className={` sidebar ${active ? ' sidebarOpen  ' : ' close'}`}>
         {active ? (
           <ul className="nav-links ">
             <li
