@@ -2390,46 +2390,7 @@ footer.sideBarOpen {
   color: #abb5e3;
 }
 
-.digit {
-  background: linear-gradient(180deg, #424242c4 -300%, #a2246b00 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-  border-radius: 10px;
-  border: 1px solid #b7b5b6;
-}
 
-.digit_check1 {
-  font-size: 72px;
-  background: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 900;
-  font-size: 100px;
-  text-align: center;
-}
-
-.digit_check2 {
-  font-size: 72px;
-  background: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 900;
-  font-size: 100px;
-  text-align: center;
-}
-
-.digit_check3 {
-  font-size: 72px;
-  background: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 900;
-  font-size: 100px;
-  text-align: center;
-}
 
 .Slider-vip-rank {
   -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
@@ -3699,12 +3660,6 @@ footer.sideBarOpen {
   font-weight: 800;
   font-size: 20px;
   text-align: center;
-}
-
-.digit h6 {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
 }
 
 .Boxes-columnFairness {
@@ -5767,14 +5722,6 @@ img.wheel-border {
     height: 2px;
   }
 
-  .digit_check1 {
-    font-size: clamp(36px, 6vw, 70px);
-  }
-
-  .digit h6.fs-6 {
-    font-size: clamp(14px, 1.7vw, 16px) !important;
-  }
-
   .depositTable tbody tr:last-child > * {
     border: none;
   }
@@ -5783,10 +5730,6 @@ img.wheel-border {
     grid-template-columns: repeat(auto-fill, minmax(189px, 1fr));
     gap: 14px;
   }
-
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(250px - 36px);
-  } */
 }
 
 @media only screen and (max-width: 1199.99px) and (min-width: 991.98px) {
@@ -6045,9 +5988,6 @@ img.wheel-border {
     font-size: 18px;
     line-height: 24px;
   }
-
-  /* Vip Rank Page */
-
 
   /* referral-page */
   .referalPageSection-title {
