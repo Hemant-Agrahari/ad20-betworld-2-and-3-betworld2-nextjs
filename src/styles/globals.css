@@ -658,134 +658,6 @@ button {
   max-width: 22px;
 }
 
-.homeTab-content {
-  display: flex;
-  flex-flow: wrap;
-  /* margin: 0 -12px; */
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
-  gap: clamp(20px, 5px + 1vw, 24px);
-}
-
-.homeTab-content .homeTabContent-col {
-  /* width: calc(100% / 6 - 24px);
-  margin: 12px; */
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 0;
-  background: var(--gray-800);
-  border-radius: clamp(12px, 2.5vw, 16px);
-  height: 100%;
-}
-
-.homeTab-content .homeTabContent-col .gameImg img {
-  transition: all 0.3s;
-  object-fit: cover;
-  max-width: 100%;
-  /* height: 100%; */
-  width: 100%;
-}
-
-.homeTab-content .homeTabContent-col .gameImg {
-  overflow: hidden;
-  position: relative;
-}
-
-.homeTabContent-col h6 {
-  padding-inline: 13px;
-  font-size: clamp(14px, 6px + 0.7vw, 20px);
-  margin-block: 0;
-  font-weight: 600;
-  color: #fff;
-  display: flex;
-  align-items: center;
-}
-
-/* .homeTab-content .homeTabContent-col .hover-col {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 85%;
-  border-radius: 0px;
-  background-color: rgba(43, 41, 86, 0.8);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 10px;
-  text-align: center;
-  transform: scale(0);
-  transition: all 0.3s;
-  opacity: 0;
-  max-height: 140px;
-} */
-.homeTab-content .homeTabContent-col .hover-col {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(43, 41, 86, 0.8);
-  background-color: rgba(0, 0, 0, 0.39);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 10px;
-  text-align: center;
-  transform: scale(0);
-  transition: all 0.3s;
-  opacity: 0;
-}
-
-.homeTab-content .homeTabContent-col .hover-col .gameTitle {
-  font-weight: 800;
-  font-size: 12px;
-  line-height: 15px;
-  color: #ffffff;
-}
-
-.homeTab-content .homeTabContent-col .hover-col .pragmaticPlay {
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 10px;
-  color: #ffffff;
-}
-
-.homeTab-content .homeTabContent-col:hover .gameImg img,
-.homeTab-content .homeTabContent-col:focus .gameImg img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-/* .hover-col-crash .hover-col {
-  height: 100% !important;
-} */
-.homeTab-content .homeTabContent-col:hover .hover-col,
-.homeTab-content .homeTabContent-col:focus .hover-col {
-  opacity: 1;
-  transform: scale(1);
-  transition: all 0.3s;
-}
-
-.homeTabPromotion-content {
-  display: flex;
-  align-items: center;
-  flex-flow: wrap;
-  margin: 0 -12px;
-}
-
-.homeTabPromotion-content .homeTabPromotionContent-col {
-  width: 31%;
-  margin: 0 1.13% 2%;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
 .gamePagination {
   display: flex;
   align-items: center;
@@ -2887,10 +2759,6 @@ footer.sideBarOpen {
   margin: 0 auto 35px;
 }
 
-
-
-
-
 .promo-activeUser {
   margin-top: 50px;
 }
@@ -3054,10 +2922,6 @@ ul.promoRules-ul * {
   margin: 0 auto;
 }
 
-
-
-
-
 .promotionsSix .promoRequirement-row .requirement-col .requirementCol-text {
   font-size: 23px;
   line-height: 28px;
@@ -3201,7 +3065,6 @@ ul.promoRules-ul * {
   color: #fff;
 }
 
-
 .rdrDay .rdrDayNumber span {
   color: #a0abdb;
 }
@@ -3219,7 +3082,6 @@ ul.promoRules-ul * {
 }
 
 /*---------- Terms & Condition and Privacy policy  -----------*/
-
 
 .loginSignUp-btn .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
   padding: 11px 14px 9.5px 0px;
@@ -3769,7 +3631,6 @@ tr {
   margin: 65px 0 35px 16px;
 } */
 
-
 /* wheel css */
 
 canvas#wheel {
@@ -4022,88 +3883,6 @@ img.wheel-border {
   }
 }
 
-/* @media screen and (min-width: 1200px) {
-  .gameImg img.object-fit-fill {
-    object-fit: fill;
-    width: 100% !important;
-    height: 225px  !important;
-    
-    object-fit: cover !important;
-  }
-  
-  .homeTab-content .homeTabContent-col .hover-col {
-    max-height: 85%;
-    border-radius: 0 !important;
-  }
-} */
-
-@media screen and (max-width: 1729px) {
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(241px, 1fr));
-    gap: 25px;
-  }
-
-  .homeTabContent-col h6 {
-    min-height: 50px;
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 1629px) {
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(315px - 43px);
-  } */
-  .homeTabContent-col h6 {
-    min-height: 43px;
-    font-size: 17px;
-  }
-
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
-    gap: 20px;
-  }
-}
-
-@media screen and (max-width: 1536px) {
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
-    gap: 20px;
-  }
-}
-
-@media screen and (max-width: 1520px) {
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(310px - 43px);
-  } */
-
-  .homeTabContent-col h6 {
-    min-height: 43px;
-  }
-
-  .homeTab-content {
-    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 14px;
-  }
-}
-
-@media screen and (min-width: 1730px) {
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: 209px;
-    width: 309px;
-  } */
-
-  .homeTabContent-col h6 {
-    min-height: 50px;
-    font-size: 20px;
-  }
-
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
-    gap: 25px;
-  }
-}
-
 @media screen and (max-width: 1399.98px) {
   /* / footer / */
   .sideBarOpen .foo-linkSocial fooLink-desktop {
@@ -4124,21 +3903,6 @@ img.wheel-border {
   .side-bar-para,
   .sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content {
     font-size: clamp(14px, 1vw, 14px);
-  }
-
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-    gap: 13px;
-  }
-
-  /* 
-  .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(280px - 36px);
-  } */
-
-  .homeTabContent-col h6 {
-    min-height: 36px;
-    font-size: 16px;
   }
 }
 
@@ -4166,11 +3930,6 @@ img.wheel-border {
 
   .depositTable tbody tr:last-child > * {
     border: none;
-  }
-
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(189px, 1fr));
-    gap: 14px;
   }
 }
 
@@ -4297,7 +4056,6 @@ img.wheel-border {
   /* referral-page */
 
   /* promotions */
- 
 
   .promoRequirement-row .requirement-col .requirementCol-text br {
     display: none;
@@ -4421,8 +4179,6 @@ img.wheel-border {
     margin: 0 auto 50px;
   }
 
- 
-
   .promo-activeUser {
     margin-top: 40px;
   }
@@ -4453,15 +4209,13 @@ img.wheel-border {
     margin: 40px 0;
   }
 
- 
-
   .promotionsSix .promoRequirement-row .requirement-col .requirementCol-text {
     font-size: 20px;
     line-height: 25px;
   }
 
   /* Terms & Condition and Privacy policy */
- 
+
   .homeBannerDesktop .homeBanner-content {
     max-width: 60%;
   }
@@ -4662,9 +4416,8 @@ img.wheel-border {
 
   /* Deposit Pesronal Center */
 
-
   /* promotions */
- 
+
   .promo-achievementBonus .promoPage-sectionTitle {
     margin-bottom: 20px;
   }
@@ -4696,7 +4449,6 @@ img.wheel-border {
     font-size: 16px;
     line-height: 20px;
   }
-
 
   .notification-bar.Notification-bar-open {
     padding-bottom: 80px;
@@ -4740,15 +4492,6 @@ img.wheel-border {
     height: 8px !important;
   }
 
-  /* home page */
-  /* .homeTab-content {
-    margin: 0 -7px;
-  } */
-
-  /* .homeTab-content .homeTabContent-col {
-    width: calc(100% / 4 - 16px);
-    width: calc(100% / 3 - 8px);
-  } */
   .homeTabPromotion-content .homeTabPromotionContent-col {
     width: 47.6%;
   }
@@ -4880,7 +4623,7 @@ img.wheel-border {
   .promo-banner.promoSix-banner:after {
     background-position: 200px 0;
   }
- 
+
   /* vip-page */
   .fullVipBonus-leval .bottom-arrow .value-bg {
     background-position: center 5px;
@@ -4903,8 +4646,6 @@ img.wheel-border {
     line-height: 10px;
     padding: 4px 0;
   }
-
-
 
   .bonus-date .MuiFormControl-root.invitationBonus {
     margin-left: 6px;
@@ -5139,9 +4880,6 @@ img.wheel-border {
     line-height: 18px;
   }
 
-
- 
-
   .rdrMonths .rdrMonth {
     width: 100%;
   }
@@ -5189,17 +4927,6 @@ img.wheel-border {
 
   .homeBannerDesktop .homeBanner-content {
     left: 25px;
-  }
-
-  .homeTab-content {
-    grid-template-columns: repeat(auto-fill, minmax(129px, 1fr));
-    gap: 8px;
-  }
-
-  .homeTabContent-col h6 {
-    min-height: 32px;
-    font-size: 12px;
-    padding-inline: 10px;
   }
 }
 
@@ -5444,8 +5171,6 @@ img.wheel-border {
   margin-inline: auto;
   margin-block: 10px;
 }
-
-
 
 .fs-28 {
   font-size: clamp(14px, 5px + 1vw, 28px) !important;
