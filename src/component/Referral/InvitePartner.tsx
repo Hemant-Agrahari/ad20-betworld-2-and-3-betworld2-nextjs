@@ -57,7 +57,7 @@ const InvitePartner = () => {
       <div className="partner-revenue toInviteTab">
         <div className="partner">
           <div className="revenue-row">
-            {/* <div className="revenue-col">
+            <div className="revenue-col">
               <label>Guest Users</label>
               <span className="value">
                 {inviteData?.guestUser ? inviteData?.guestUser : 0}
@@ -68,7 +68,7 @@ const InvitePartner = () => {
               <span className="value">
                 {inviteData?.depositedUser ? inviteData?.depositedUser : 0}
               </span>
-            </div> */}
+            </div>
             <div className="revenue-col">
               <label>{t('Bonus Today')}</label>
               <span className="value">
