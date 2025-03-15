@@ -493,6 +493,14 @@
   .sidebar .profile-details .job {
     font-size: 12px;
   }
+
+  .sidebar_divider {
+    height: 0px;
+    width: 78%;
+    border-top: 0.5px solid #3a3a3a;
+    margin-inline: auto;
+    margin-block: 10px;
+  }
   
   @media screen and (max-width:767.98px) {
     .sidebar {

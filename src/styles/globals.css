@@ -175,48 +175,10 @@ button {
   padding: 0 0 0 23px;
 }
 
-.accountMore-btn {
-  margin-top: 1rem;
-}
+
 
 .homeOffer .homeOffer-img img {
   width: 100%;
-}
-
-.accountMore-btn .btn {
-  border-radius: 10px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
-  width: 185px;
-  text-align: center;
-  padding: 14px 9px;
-  /* margin-left: 10px; */
-  transition: 0.5s;
-}
-
-.accountMore-btn .btn a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.accountMore-btn .btn:first-child {
-  /* margin-left: 15px; */
-}
-
-.accountMore-btn .btn.account-btn {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  color: var(--white);
-}
-
-.accountMore-btn .btn.more-btn {
-  background: linear-gradient(90deg, #181c34 0%, #181c34 19.27%, #181c34 100%);
-}
-
-.accountMore-btn .btn:hover {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  transition: 0.5s;
 }
 
 .homeOffer .homeOffer-img {
@@ -1117,81 +1079,7 @@ footer.sideBarOpen {
   border-radius: 10px;
 }
 
-.deposit-bonus {
-  display: flex;
-  flex-flow: wrap;
-  align-items: center;
-  margin-top: 25px;
-}
 
-.wallet_sec_other {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 14px;
-  background: var(--gray-600, #420c29);
-  border: 1px solid var(--gray-300);
-  width: 23.4%;
-  height: 59px;
-  margin-left: 7px;
-  margin-bottom: 15px;
-  text-decoration: none;
-}
-
-.wallet_sec_other:first-child,
-.wallet_sec_other:nth-child(4n + 1) {
-  margin-left: 0;
-}
-
-.wallet_sec_other .depo-amount {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-}
-
-.wallet_sec_other .depo-amount span {
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  margin-right: 5px;
-}
-
-.wallet_sec_other .bonus-percentage {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 13px;
-  color: #ffc961;
-  margin-top: 3px;
-}
-
-.wallet_sec_other .hot {
-  background: #da384e;
-  border-radius: 0px 14px;
-  font-weight: 700;
-  font-size: 8px;
-  line-height: 10px;
-  color: #ffffff;
-  text-align: center;
-  width: 48px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.wallet_sec_other:hover,
-.wallet_sec_other.active {
-  background: var(--gray-300, #a2246b);
-}
-
-.wallet_sec_other:hover .bonus-percentage,
-.wallet_sec_other:hover .hot,
-.wallet_sec_other.active .bonus-percentage,
-.wallet_sec_other.active .hot {
-  display: none;
-}
 
 .cashBack-slider {
   margin-top: 8px;
@@ -1377,28 +1265,6 @@ footer.sideBarOpen {
   width: 32px;
   border-radius: 10px;
   background-color: #fff;
-}
-
-.promotioSecondnModal-content .joinTelegram {
-  background: var(--gray-600, #420c29);
-  /* border-radius: 10px; */
-  padding: 15px 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* margin: 0px 15px 30px 15px; */
-}
-
-.promotioSecondnModal-content .joinTelegram img {
-  margin-right: 10px;
-  max-width: 75px;
-}
-
-.promotioSecondnModal-content .joinTelegram .joinTelegram-text {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ffffff;
 }
 
 /*---------- SignUp Modal CSS ----------*/
@@ -2170,58 +2036,6 @@ footer.sideBarOpen {
 }
 
 /* -------------- Notification Sidebar css ------ */
-.notification-bar {
-  position: fixed;
-  width: 430px;
-  background-color: #fff;
-  top: 0;
-  right: -430px;
-  height: 100%;
-  z-index: 11;
-  transition: 0.5s;
-  padding: 10px;
-}
-
-.notification-bar.Notification-bar-open {
-  right: 0;
-  background: #420c29;
-  z-index: 999;
-  overflow: auto;
-}
-
-.notification-bar .notiBar-close {
-  cursor: pointer;
-  color: #7f8aba;
-}
-
-.notification-bar .notiBar-close:hover {
-  color: #dd566e;
-}
-
-.notification-bar .mark-read_notification {
-  background: transparent;
-  color: #fff;
-  margin-top: 2vh;
-  width: 100%;
-  padding: 10px;
-  border: 3px solid;
-}
-
-.notification-bar .mark-read_notification:hover {
-  color: red;
-}
-
-.notification-bar .mark-read_notification:active {
-  color: #444ac7;
-}
-
-.notification-Failed {
-  display: flex;
-  justify-content: center;
-  height: 95%;
-  align-items: center;
-  font-weight: 600;
-}
 
 /*---------- Promotion first page start ----------*/
 .promo-banner {
@@ -2757,47 +2571,8 @@ div#goog-gt- {
   margin-top: 20px;
 }
 
-.providers_group .gameproviderTabNormal,
-.providers_group .providersItems {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 12px;
-  border-radius: 5px;
-  line-height: 14px;
-  text-transform: capitalize;
-  height: 48px;
-  width: 140px;
-  text-align: center;
-  position: relative;
-  color: var(--gray-100);
-  font-size: 16px;
-  background-color: var(--gray-600);
-  border: 1px solid var(--gray-300);
-  border-radius: 6px;
-  gap: 10px;
-}
 
-.providers_group .providersItems:hover {
-  background-color: var(--gray-800);
-  color: #ffffff;
-  border: 1px solid #fff !important;
-}
 
-.providers_group .DisplayProvider_div {
-  white-space: nowrap;
-}
-
-.providers_group .slick-next:after {
-  content: '→';
-  font-family: 'slick';
-  font-size: 20px;
-  line-height: 1;
-  opacity: 0.75;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 .In_house {
   display: flex;
@@ -3387,15 +3162,6 @@ img.wheel-border {
     padding: 0 0 0 15px;
   }
 
-  .accountMore-btn {
-    margin-top: 30px;
-  }
-
-  .accountMore-btn .btn {
-    width: 160px;
-    padding: 12px 10px;
-  }
-
   .homeTabPromotion-content {
     margin: 0 -9px;
   }
@@ -3409,32 +3175,8 @@ img.wheel-border {
     padding: 30px;
   }
 
-  .promotioSecondnModal-content .promoTitle {
-    font-size: 28px;
-    line-height: 28px;
-    margin-bottom: 35px;
-  }
-
-  .promotioSecondnModal-content .slick-list {
-    margin: 0 -7px;
-  }
-
   .promoModal-slider .slick-slide {
     padding: 0 7px;
-  }
-
-  .promotioSecondnModal-content .joinTelegram {
-    margin-top: 40px;
-  }
-
-  .promotioSecondnModal-content .joinTelegram img {
-    margin-right: 20px;
-    max-width: 70px;
-  }
-
-  .promotioSecondnModal-content .joinTelegram .joinTelegram-text {
-    font-size: 18px;
-    line-height: 24px;
   }
 
   /* referral-page */
@@ -3531,10 +3273,6 @@ img.wheel-border {
   .homeBannerDesktop .homeBanner-content {
     top: 50%;
   }
-
-  .accountMore-btn {
-    margin-top: 10px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -3594,14 +3332,6 @@ img.wheel-border {
     padding: 0;
   }
 
-  .accountMore-btn {
-    margin-top: 15px;
-    display: flex;
-  }
-
-  .accountMore-btn .btn {
-    flex: 1;
-  }
   .homeBanner-slider ul.slick-dots {
     top: 75% !important;
     bottom: inherit !important;
@@ -3640,27 +3370,7 @@ img.wheel-border {
     padding: 50px 20px 20px 20px;
   }
 
-  .promotioSecondnModal-content .promoTitle {
-    font-size: 26px;
-    line-height: 26px;
-    margin-bottom: 35px;
-  }
 
-  .promotioSecondnModal-content .joinTelegram {
-    margin-top: 30px;
-    padding: 14px 20px;
-  }
-
-  .promotioSecondnModal-content .joinTelegram img {
-    margin-right: 15px;
-    max-width: 65px;
-  }
-
-  .promotioSecondnModal-content .joinTelegram .joinTelegram-text {
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: 600;
-  }
 
   /* Vip Slider TOp Badge Image */
 
@@ -3732,36 +3442,16 @@ img.wheel-border {
     line-height: 20px;
   }
 
-  .notification-bar.Notification-bar-open {
-    padding-bottom: 80px;
-  }
-
   .hpMenu-top-vip .user-levelScore .userScore {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: 575.98px) {
-  .providers_group .gameproviderTabNormal,
-  .providers_group .providersItems {
-    width: 100%;
-  }
-
-  .providers_group .DisplayProvider_div {
-    flex-grow: 1;
-  }
-
-  .providers_group {
-    margin-top: 5px;
-  }
 
   .TabLogin_Signup {
     margin: 10px 15px !important;
   }
-
-  /* .headerProfile .headerProfile-btn {
-    border: none;
-  } */
 
   .BannerBigHomeSlider {
     height: 135px;
@@ -3783,10 +3473,7 @@ img.wheel-border {
     font-size: 14px !important;
   }
 
-  .accountMore-btn .btn {
-    padding: 8px 8px;
-    font-size: 13px !important;
-  }
+
 
   .homeBannerDesktop .homeBanner-content {
     max-width: 60%;
@@ -3807,25 +3494,14 @@ img.wheel-border {
     margin-top: 0 !important;
   }
 
-  .accountMore-btn .btn {
-    flex: 0 0 80%;
-  }
-
   .fooSocial .fooText {
     text-align: center;
   }
 
   /* Promotion Modal */
-  .promotioSecondnModal-content .promoTitle {
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
 
-  .promotioSecondnModal-content .joinTelegram {
-    margin-top: 55px;
-    padding: 10px 15px;
-  }
+
+
 
   /* Footer Sticky button ===== */
   .Footer_buttonSticky {
@@ -3965,21 +3641,6 @@ img.wheel-border {
     height: auto !important;
   }
 
-  .promotioSecondnModal-content > img {
-    height: 160px;
-  }
-
-  .promotioSecondnModal-content .joinTelegram {
-    margin-top: 20px;
-    padding: 10px 15px;
-  }
-
-  .promotioSecondnModal-content .promoTitle {
-    font-size: 23px;
-    line-height: 24px;
-    margin-bottom: 10px;
-  }
-
   .partner-revenue .revenue .yourProfit {
     font-size: 14px;
   }
@@ -4030,24 +3691,10 @@ img.wheel-border {
   }
 
   /* wallet modal */
-  .wallet_sec_other {
-    width: 23.1%;
-  }
+
 
   .depoWithdro-tabContainer {
     padding: 10px;
-  }
-
-  .wallet_sec_other .depo-amount {
-    font-size: 12px;
-  }
-
-  .wallet_sec_other .depo-amount span {
-    font-size: 14px;
-  }
-
-  .wallet_sec_other .bonus-percentage {
-    font-size: 10px;
   }
 
   /* home page */
@@ -4423,14 +4070,6 @@ img.wheel-border {
 .ranking.active {
   background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
   border-radius: 10px;
-}
-
-.sidebar_divider {
-  height: 0px;
-  width: 78%;
-  border-top: 0.5px solid #3a3a3a;
-  margin-inline: auto;
-  margin-block: 10px;
 }
 
 .fs-28 {
