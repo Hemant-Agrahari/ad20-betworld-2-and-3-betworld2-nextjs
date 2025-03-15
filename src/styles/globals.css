@@ -3281,100 +3281,6 @@ tr {
   margin-top: 20px;
 }
 
-/* ^^^^^^^^^ Deposit SPinner ^^^^^^^^^^^^^ */
-.loadingButton {
-  width: 25px;
-  height: 25px;
-  margin: 0px 0px -5px 20px;
-  border: 5px solid #fff;
-  border-bottom-color: #ff3d00;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  animation: loadingBtnSpin 1s linear infinite;
-}
-
-@keyframes loadingBtnSpin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* ^^^^^^^^^ Deposit SPinner ^^^^^^^^^^^^^ */
-
-/* ^^^^^^^^ OLD SPinner ^^^^^^^^^^^^^^^ */
-
-/* =========== LOADER CSS ============ */
-/* .loading { position: fixed; z-index: 999; height: 2em; width: 2em; overflow: show; margin: auto; top: 0; left: 0; bottom: 0; right: 0; } */
-/* Transparent Overlay */
-/* .loading:before { content: ''; display: block; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(rgba(20, 20, 20, .8), rgba(0, 0, 0, .8)); background: -webkit-radial-gradient(rgba(20, 20, 20, .8), rgba(0, 0, 0, .8)); } */
-/* :not(:required) hides these rules from IE9 and below */
-/* .loading:not(:required) { font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0; } */
-/* .loading:not(:required):after { content: ''; display: block; font-size: 10px; width: 1em; height: 1em; margin-top: -0.5em; -webkit-animation: spinner 150ms infinite linear; -moz-animation: spinner 150ms infinite linear; -ms-animation: spinner 150ms infinite linear; -o-animation: spinner 150ms infinite linear; animation: spinner 150ms infinite linear; border-radius: 0.5em; -webkit-box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0; box-shadow: rgba(255, 255, 255, 0.75) 1.5em 0 0 0, rgba(255, 255, 255, 0.75) 1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) 0 1.5em 0 0, rgba(255, 255, 255, 0.75) -1.1em 1.1em 0 0, rgba(255, 255, 255, 0.75) -1.5em 0 0 0, rgba(255, 255, 255, 0.75) -1.1em -1.1em 0 0, rgba(255, 255, 255, 0.75) 0 -1.5em 0 0, rgba(255, 255, 255, 0.75) 1.1em -1.1em 0 0; } */
-
-/* Animation */
-/* @-webkit-keyframes spinner {
-  0% { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }
-}
-@-moz-keyframes spinner {
-  0% { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }
-}
-@-o-keyframes spinner {
-  0% { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }
-}
-@keyframes spinner {
-  0% { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }
-} */
-
-/* ^^^^^^^^ OLD SPinner ^^^^^^^^^^^^^^^ */
-
-/* ======= HOME Banner CSS ============== */
-/* .homeBanners_css{ border-radius: 10px; height: 28vh; background: linear-gradient(94deg, #4353FF 1.49%, #245CFF 30.16%, #67DBFF 98.46%);}
-.firstBanner_text{ font-size: 18px; font-style: italic; font-weight: 600; color: #FFEA2B;}
-.secondBanner_text{ font-size: 38px; font-style: italic; font-weight: 700; color: #FFC700 ; }
-.threeBanner_text{ color: #FFF; font-size: 18px; font-style: italic; font-weight: 600; }
-.fourBanner_text{ color: #FFF; font-size: 38px; font-style: italic; font-weight: 700; } */
-/* .providers_group {display: flex; overflow-x: auto;} */
-/* .providers_group { padding: 0 30px;} */
-.providers_group::-webkit-scrollbar {
-  height: 5px;
-}
-
-/* .providers_group .providersItems {
-  font-size: 18px;
-  background-color: #a2246b;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  border-radius: 10px;
-  cursor: pointer;
-  display: block;
-  margin: 0px 3px;
-  padding: 15px 10px;
-  text-align: center;
-  word-break: break-word;
-} */
-
-/* .providers_group .gameproviderTabNormal {
-  font-size: 18px;
-  background-color: #dd566e;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 2px solid;
-  width: -webkit-fill-available;
-  display: inline-block;
-  padding: 13px;
-  
-} */
 .providers_group .gameproviderTabNormal,
 .providers_group .providersItems {
   display: flex;
@@ -3402,22 +3308,9 @@ tr {
   border: 1px solid #fff !important;
 }
 
-/* .providers_group .providersItems:hover {
-  background-color: #dd566e;
-} */
-
 .providers_group .DisplayProvider_div {
   white-space: nowrap;
-  /* overflow: hidden; */
 }
-
-/* .providers_group .slick-next {
-  right: -30px;
-}
-
-.providers_group .slick-next:before {
-  display: none;
-} */
 
 .providers_group .slick-next:after {
   content: '→';
@@ -3442,9 +3335,7 @@ tr {
 
 /* --------- Swiper CSS STARTS ---------- */
 .offering .swiper {
-  /* padding-top: 75px !important; */
   padding: 15px 10px;
-  /* margin-bottom: 20px; */
 }
 
 .offering .swiper-button-prev,
@@ -5144,7 +5035,6 @@ img.wheel-border {
 
 .search-bar .css-u9pgfk-MuiInputBase-root-MuiOutlinedInput-root {
   background-color: #000000;
-  /* position: unset; */
 }
 
 .search-bar
