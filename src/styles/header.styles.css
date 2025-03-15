@@ -276,11 +276,313 @@ main .loginSignUp-btn .signUp-btn {
   box-shadow: 0 0 0 1px #141414;
 }
 
+/* vip score under ui css */
+.hpMenu-top {
+  padding: 15px 10px 0;
+  background: var(--gray-800, #5c2242);
+  border-radius: 8px;
+}
+
+.hpMenu-top .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gray-600, #a2246b);
+  border-radius: 8px;
+  padding: 7px 20px;
+}
+
+.hpMenu-top .user-info .user-img {
+  width: 33px;
+  height: 33px;
+  background-color: #667bff;
+  border-radius: 100%;
+}
+
+.hpMenu-top .user-info .user-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hpMenu-top .user-info .user-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.hpMenu-top .user-info .userCopy-btn {
+  /* background-color: #420c29; */
+  background: var(--gray-300, #420c29);
+  border-radius: 4px;
+  background-image: url(../../public/assets/images/userCopy-iocn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 31px;
+}
+
+.hpMenu-top .user-info .userCopy-btn:hover {
+  background-color: #6587ff;
+}
+
+.hpMenu-top .user-levelScore {
+  display: flex;
+  padding: 25px 10px 20px;
+  justify-content: space-between;
+}
+
+.hpMenu-top .user-levelScore .userLevel {
+  flex: 1;
+  text-align: center;
+}
+
+.hpMenu-top .user-levelScore .userLevel .vipImg img {
+  max-width: 45px;
+  height: auto;
+}
+
+.hpMenu-top .user-levelScore .userLevel .levalName {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.hpMenu-top .user-levelScore .userScore {
+  width: 235px;
+  margin-left: 15px;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col {
+  margin-bottom: 18px;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col:last-child {
+  margin-bottom: 0;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col .title-value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col .title-value .title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col .title-value .amount {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  color: #fff;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .title-value
+  .amount
+  span {
+  color: #ffed4a;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col.betAmount
+  .title-value
+  .amount
+  span {
+  color: #2b54e6;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col .process-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .process-score
+  .MuiLinearProgress-root {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .process-score
+  .MuiLinearProgress-root
+  .MuiLinearProgress-bar {
+  background-color: #efa318;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .process-score
+  .progressValue {
+  flex: 1 0 50px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 8px;
+  min-width: 35px;
+  text-align: right;
+}
+
+.hpMenu-top .user-levelScore .userScore .userScore-col .bet-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .bet-score
+  .MuiLinearProgress-root {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .bet-score
+  .MuiLinearProgress-root
+  .MuiLinearProgress-bar {
+  background-color: #9643ff;
+}
+
+.hpMenu-top
+  .user-levelScore
+  .userScore
+  .userScore-col
+  .bet-score
+  .progressValue {
+  flex: 1 0 50px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 8px;
+  min-width: 35px;
+  text-align: right;
+  word-break: break-all;
+}
+
+.hpMenu-botm {
+  padding: 15px 15px 30px;
+}
+
+.hpMenu-botm .profilePane-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.hpMenu-botm .profilePane-ul li {
+  flex: 50%;
+  margin-left: 15px;
+  flex: 47%;
+  margin-bottom: 15px;
+}
+
+.hpMenu-botm .profilePane-ul li:first-child {
+  margin-left: 0;
+}
+
+.hpMenu-botm .profilePane-ul li:nth-child(2n + 1) {
+  margin-left: 0;
+}
+
+.hpMenu-botm .profilePane-ul li a {
+  background: linear-gradient(180deg, #1469ca 0%, #193299 100%);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 45px;
+  color: #ffffff;
+  padding: 0px 0px;
+  display: block;
+  text-decoration: none;
+}
+
+.hpMenu-botm .profilePane-ul li a img {
+  margin-right: 5px;
+}
+
+.hpMenu-botm .profilePane-ul li a:hover {
+  background: linear-gradient(180deg, #3366db 0%, #2f459f 100%);
+}
+
+.hpMenu-botm .profile-logout {
+  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
+  border: 1px solid #6458e3 !important;
+  border-radius: 8px;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin: auto;
+  text-align: center;
+}
+
+.hpMenu-botm .profile-logout a {
+  font-weight: 500;
+  font-size: clamp(14px, 1.5vw, 15px);
+  line-height: 17px;
+  color: #fff;
+  background-image: url(../../public/assets/images/profile-logout.png);
+  background-repeat: no-repeat;
+  background-position: 0;
+  text-decoration: none;
+  padding-left: 25px;
+  background-size: 18px;
+}
+
+.hpMenu-botm .profile-logout a:hover {
+  opacity: 0.7;
+}
+
+
+
 @media screen and (max-width: 1729px) {
   .header_toggle .logo-img {
     width: 100px;
     height: none;
     object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width: 1299px) {
+  .hpMenu-top .user-levelScore {
+    padding: 20px 10px 15px;
   }
 }
 
@@ -375,6 +677,23 @@ main .loginSignUp-btn .signUp-btn {
 @media screen and (max-width: 575.98px) {
   .headerMsg {
     margin-left: 7px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .hpMenu-top .user-levelScore .userScore {
+    width: 215px;
+    margin-left: 5px;
+  }
+
+  .hpMenu-botm .profilePane-ul li a {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 12px 7px;
+  }
+
+  .hpMenu-botm .profilePane-ul li a img {
+    margin-right: 2px;
   }
 }
 
