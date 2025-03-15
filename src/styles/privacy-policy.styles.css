@@ -47,9 +47,51 @@
   font-family: unset;
 }
 
+.marker-40 > li::marker {
+  font-size: clamp(16px, 8px + 1.1vw, 40px);
+  color: #fff;
+}
+
+.decimal-list li {
+  list-style: decimal;
+  color: rgb(255 255 255 / 40%);
+  font-size: clamp(15px, 2px + 1vw, 24px);
+}
+
+
+.tabs-box {
+  background: var(--gray-800);
+  padding: clamp(16px, 2vw, 32px);
+  border-radius: clamp(8px, 1vw, 16px);
+}
+
+.tabs-boxslist {
+  gap: 10px;
+}
+
+.tabs-list {
+  background: var(--gray-400) !important;
+  color: #fff !important;
+  border-radius: 14px !important;
+  padding: 14px 40px !important;
+  flex: 1;
+  max-width: 100%;
+  min-width: 230px !important;
+  text-transform: capitalize !important;
+}
+
+.tabs-box .Mui-selected {
+  color: #fff !important;
+  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%) !important;
+  border: 0px solid #6458e3 !important;
+}
+
+.tabs-box .css-1aquho2-MuiTabs-indicator {
+  background-color: transparent;
+}
+
 @media screen and (max-width: 991.98px) {
   .privacyTems-page {
-    /* margin: 90px 0 35px; */
     margin-top: 90px;
   }
 

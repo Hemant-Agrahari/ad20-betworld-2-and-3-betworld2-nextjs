@@ -5124,8 +5124,6 @@ img.wheel-border {
   .promo-banner.promoSix-banner:after {
     background-position: 200px 0;
   }
-
-  /* Terms & Condition and Privacy policy */
  
   /* vip-page */
   .fullVipBonus-leval .bottom-arrow .value-bg {
@@ -5238,14 +5236,10 @@ img.wheel-border {
   }
 
   .object-fit-fill {
-    /* max-height: 120px; */
     max-height: 140px;
     min-height: 140px;
   }
 
-  /* .homeTab-content .homeTabContent-col .hover-col {
-  height: 71%;
-} */
   .search-input input {
     padding-block: 12px !important;
   }
@@ -5407,8 +5401,6 @@ img.wheel-border {
     font-size: 18px;
     line-height: 20px;
   }
-
-  /* Deposit Pesronal Center */
   .rdrStaticRanges {
     flex-flow: wrap;
   }
@@ -5420,13 +5412,6 @@ img.wheel-border {
   .rdrMonths .rdrMonth {
     width: 100%;
   }
-
-  /* Terms & Condition and Privacy policy */
- 
-  /* .privacyTems-page {
-    margin: 65px 30px 35px 16px !important;
-} */
-  /* vip-page */
 
   .fullVipBonus-leval .bottom-arrow:after {
     border-top: 9px solid #121539;
@@ -5473,29 +5458,16 @@ img.wheel-border {
     left: 25px;
   }
 
-  /* .sidebar {
-    width: 200px;
-  } */
-
   .homeTab-content {
     grid-template-columns: repeat(auto-fill, minmax(129px, 1fr));
     gap: 8px;
   }
 
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(185px - 32px);
-  } */
   .homeTabContent-col h6 {
     min-height: 32px;
     font-size: 12px;
     padding-inline: 10px;
   }
-}
-
-@media (max-width: 390px) {
-  /* .homeTab-content .homeTabContent-col .gameImg {
-    height: calc(162px - 32px);
-  } */
 }
 
 .search-input {
@@ -5740,32 +5712,7 @@ img.wheel-border {
   margin-block: 10px;
 }
 
-.tabs-box {
-  background: var(--gray-800);
-  padding: clamp(16px, 2vw, 32px);
-  border-radius: clamp(8px, 1vw, 16px);
-}
 
-.tabs-boxslist {
-  gap: 10px;
-}
-
-.tabs-list {
-  background: var(--gray-400) !important;
-  color: #fff !important;
-  border-radius: 14px !important;
-  padding: 14px 40px !important;
-  flex: 1;
-  max-width: 100%;
-  min-width: 230px !important;
-  text-transform: capitalize !important;
-}
-
-.tabs-box .Mui-selected {
-  color: #fff !important;
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%) !important;
-  border: 0px solid #6458e3 !important;
-}
 
 .fs-28 {
   font-size: clamp(14px, 5px + 1vw, 28px) !important;
@@ -5781,21 +5728,6 @@ img.wheel-border {
 
 .fs-100 {
   font-size: clamp(40px, 10px + 3.5vw, 100px) !important;
-}
-
-.tabs-box .css-1aquho2-MuiTabs-indicator {
-  background-color: transparent;
-}
-
-.marker-40 > li::marker {
-  font-size: clamp(16px, 8px + 1.1vw, 40px);
-  color: #fff;
-}
-
-.decimal-list li {
-  list-style: decimal;
-  color: rgb(255 255 255 / 40%);
-  font-size: clamp(15px, 2px + 1vw, 24px);
 }
 
 .py-100 {
