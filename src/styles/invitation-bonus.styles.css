@@ -62,9 +62,56 @@
   max-width: 435px;
 }
 
+.achievement-bonus {
+  background: linear-gradient(1.04deg, #2a0855 0.99%, #5c24a2 54.74%);
+  border-radius: 10px;
+  padding: 30px 65px;
+  margin-top: 32px;
+}
+
+.achievement-bonus .cumulative-deposit {
+  margin-top: 50px;
+}
+
+.achievement-bonus .cumulative-deposit .cd-col {
+  background-color: #c99eff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #ffffff;
+}
+
+.achievement-bonus .cumulative-deposit .cd-col .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  width: 220px;
+  margin-block: 10px !important;
+}
+
+.achievement-bonus .cumulative-deposit .cd-col.cd-title {
+  background-color: transparent;
+}
+
+.achievement-bonus .cumulative-deposit .cd-col.cd-title .title {
+  font-weight: 800;
+}
+
+.achievement-bonus .cumulative-deposit .colouredAchivement {
+  background-color: #fdf4b4;
+  color: #000;
+}
+
 @media screen and (max-width: 1199.98px) {
   .invitation-bonus {
     margin-top: 40px;
+  }
+  .achievement-bonus .cumulative-deposit {
+    margin-top: 30px;
   }
 }
 
@@ -87,6 +134,13 @@
   .invitation-bonus .invitationBonus-col .invitationBonus-img img {
     max-width: 330px;
   }
+  .achievement-bonus {
+    padding: 30px 20px;
+  }
+
+  .achievement-bonus .cumulative-deposit {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -108,5 +162,36 @@
 
   .invitation-bonus .invitationBonus-col .invitationBonus-img img {
     max-width: 100%;
+  }
+  .achievement-bonus {
+    padding: 30px 25px;
+  }
+
+  .achievement-bonus .cumulative-deposit .cd-col.cd-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .achievement-bonus {
+    padding: 20px 15px;
+  }
+
+  .achievement-bonus .cumulative-deposit .cd-col {
+    padding: 14px 10px;
+    padding: 12px 10px;
+    border-radius: 10px;
+  }
+
+  .achievement-bonus .cumulative-deposit .cd-col .title {
+    width: 120px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-block: 7px !important;
+  }
+
+  .achievement-bonus .cumulative-deposit .cd-col .title img {
+    height: 18px;
+    width: 18px;
   }
 }
