@@ -2271,92 +2271,6 @@ footer.sideBarOpen {
 }
 
 /* Forms tab */
-.formsTab.partner-revenue {
-  margin-bottom: 30px;
-}
-
-.formsTab.partner-revenue:last-child {
-  margin-bottom: 0;
-}
-
-.formsTab.partner-revenue .partner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.partner-revenue .partner .profitToday-title {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #ffffff;
-  margin: 15px 0 15px;
-}
-
-.pfofitTodayChart {
-  position: relative;
-  min-height: initial !important;
-  height: 160px;
-}
-
-.pfofitTodayChart .apexcharts-datalabels-group {
-  display: none;
-}
-
-.pfofitTodayChart .apexcharts-legend {
-  width: 87px;
-  inset: auto 50% 45% !important;
-  transform: translate(-50%, -50%);
-  flex-direction: column;
-  padding: 0;
-}
-
-.partner .profitToday-value {
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
-  color: #ffd569;
-  margin: 12px 0 5px;
-  text-align: center;
-}
-
-.partner .profitToday-botm {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.formsTab.partner-revenue .revenue-row {
-  justify-content: space-around;
-}
-
-.formsTab.partner-revenue .revenue-row .revenue-col label {
-  margin-bottom: 0;
-}
-
-.formsTab.partner-revenue .revenue-row .revenue-col .value {
-  color: #ffd569;
-  margin-bottom: 5px;
-}
-
-.partner-revenue .revenue .yourProfit {
-  padding: 15px 25px;
-  max-width: 850px;
-  font-weight: 400;
-  font-size: 15px;
-  color: #ffffff;
-  line-height: 26px;
-}
-
-.partner-revenue .partner .profitToday-img {
-  text-align: center;
-}
 
 .fairness_heading {
   background: linear-gradient(90.46deg, #3f8bff 0.19%, #5effd8 100%);
@@ -4933,11 +4847,6 @@ img.wheel-border {
   /* Vip Slider TOp Badge Image */
 
   /* referral-page */
-
-  .formsTab.partner-revenue .revenue-row {
-    display: flex;
-  }
-
   .bonus-date {
     flex-flow: wrap;
   }
@@ -5508,16 +5417,6 @@ img.wheel-border {
 
   /* referral-page */
 
-  .formsTab.partner-revenue .revenue-row .revenue-col .value {
-    font-size: 14px;
-    line-height: 17px;
-  }
-
-  .formsTab.partner-revenue .revenue-row .revenue-col label {
-    font-size: 10px;
-    line-height: 12px;
-  }
-
   /* promotions */
   .promo-banner {
     height: 178px;
@@ -5701,12 +5600,6 @@ img.wheel-border {
     display: none;
   }
 }
-
-/* @media (max-width: 767px) {
-  .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
-    padding: 8px 0 !important;
-  }
-} */
 
 .search-input .css-u9pgfk-MuiInputBase-root-MuiOutlinedInput-root {
   width: 177px !important;
@@ -5929,14 +5822,7 @@ img.wheel-border {
 .ranking.active {
   background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
   border-radius: 10px;
-  /* border: 1px solid #6458e3 !important; */
 }
-
-/* @media (max-width: 420px) {
-  .sidebar.close .nav-links li .sub-menu {
-    display: none;
-  }
-} */
 
 .sidebar_divider {
   height: 0px;
