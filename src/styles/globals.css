@@ -51,10 +51,6 @@ body {
   background: #555;
 }
 
-.depositTable::-webkit-scrollbar {
-  height: 3px;
-}
-
 /* For chrome, Safari, Edge, Opera : */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -115,7 +111,6 @@ button {
 .promotion-banner img {
   max-height: 300px;
 }
-
 
 .box-bonus {
   width: 150px;
@@ -462,9 +457,6 @@ button {
   border-radius: 8px;
   height: 100%;
   top: 0;
-  /* background-color: var(--gray-500 ,  #a2246b); */
-  /* background: linear-gradient(90deg, #4473E9 0%, #7E43DE 98.45%);
-  border: 1px solid #6458e3 !important; */
 }
 
 .side-referrals {
@@ -1434,26 +1426,6 @@ footer.sideBarOpen {
   top: 0px;
 }
 
-.depositTable table {
-  min-width: 600px;
-}
-
-.depositTable table > :not(caption) > * > * {
-  text-align: center;
-}
-
-.game-history-table table {
-  min-width: 900px;
-}
-
-.game-history-table table > :not(caption) > * > * {
-  text-align: center;
-}
-
-.white-input > * {
-  color: #fff !important;
-}
-
 .react-datepicker__header {
   background: var(--gray-600, #6e274ef2) !important;
   border: none !important;
@@ -1724,10 +1696,6 @@ footer.sideBarOpen {
 .Slider-vip-rank {
   -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
   clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
-}
-
-.depositTable {
-  margin-top: 20px;
 }
 
 .MuiTooltip-arrow {
@@ -2773,61 +2741,10 @@ div#goog-gt- {
 }
 
 /* Fruit-Ninja Game CSS Start ========== */
-.ninjaPlayer-info {
-  width: 100%;
-  border: 1px solid;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #212529;
-}
-
-.tableFixHead {
-  overflow-y: auto;
-  height: 440px;
-}
-
-.tableFixHead thead th {
-  position: sticky;
-  top: 0px;
-}
-
-.tableFixHead table {
-  border-collapse: collapse;
-  /* make the table borders collapse to each other */
-  width: 100%;
-}
-
-.tableFixHead table td,
-tr {
-  text-align: center;
-  font-size: 12px;
-}
-
 .homeBanner-content .bannerHeading img {
   margin-top: 4px;
 }
 
-.payment-methods {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-  max-width: 50%;
-  margin-inline: auto;
-  grid-template-rows: 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-/* .fooLink-desktop .side-bar-para{
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 18px !important;
-  line-height: normal;
-  color: #abbdd9;
-  padding: 0;
-  font-weight: 400;
-} */
 .fooLink-mobile .side-bar-para {
   cursor: pointer;
   text-decoration: none;
@@ -3341,8 +3258,6 @@ img.wheel-border {
 }
 
 @media screen and (max-width: 1299px) {
-
-
   .modal_form_signIn input {
     padding-block: 16.5px !important;
     padding-inline: 5px;
@@ -3358,10 +3273,6 @@ img.wheel-border {
 
   .horizontal-lines .line {
     height: 2px;
-  }
-
-  .depositTable tbody tr:last-child > * {
-    border: none;
   }
 }
 
@@ -3664,11 +3575,6 @@ img.wheel-border {
   .profit-graph-section .revenue {
     width: 100%;
     margin-left: 0 !important;
-  }
-
-  .game-history-table table > :not(caption) > * > *,
-  .depositTable table > :not(caption) > * > * {
-    text-align: start;
   }
 }
 
@@ -4375,8 +4281,6 @@ img.wheel-border {
   background: linear-gradient(90deg, #7e43de 0%, #4473e9 98.45%);
   border-radius: 8px;
 }
-
-
 
 .gamesTypeSlider {
   position: relative !important;
