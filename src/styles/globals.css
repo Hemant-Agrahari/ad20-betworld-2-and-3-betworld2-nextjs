@@ -3368,47 +3368,7 @@ ul.promoRules-ul * {
 }
 
 /*---------- Terms & Condition and Privacy policy  -----------*/
-.privacyTems-page {
-  margin-top: 65px;
-}
 
-.privacyPolicy-banner {
-  background: url(/assets/images/policy-bg.png) no-repeat center center/ cover;
-  height: 100vh;
-  max-height: clamp(300px, 40vw, 673px);
-  display: flex;
-  align-items: center;
-}
-
-.privacyTems-page h1 {
-  font-weight: 800;
-  font-size: clamp(22px, 3vw, 32px);
-  color: #fff;
-  margin-bottom: 25px;
-}
-
-.privacyTems-page h2 {
-  font-weight: 600;
-  font-size: 22px;
-  color: #fff;
-  margin: 25px 0 8px;
-}
-
-.privacyTems-page h3 {
-  font-weight: 600;
-  font-size: 20px;
-  color: #a7b0d6;
-  margin-bottom: 5px;
-}
-
-.privacyTems-page p {
-  font-weight: 400;
-  font-size: clamp(15px, 2px + 1vw, 24px);
-  line-height: 150%;
-  color: #a7b0d6;
-  color: rgb(255 255 255 / 40%);
-  font-family: unset;
-}
 
 .loginSignUp-btn .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
   padding: 11px 14px 9.5px 0px;
@@ -3958,12 +3918,6 @@ tr {
   margin: 65px 0 35px 16px;
 } */
 
-.privacyTems-page h1 {
-  color: #fff;
-  font-weight: 700;
-  font-size: clamp(40px, 10px + 4vw, 100px);
-  margin-bottom: 25px;
-}
 
 /* wheel css */
 
@@ -4671,15 +4625,7 @@ img.wheel-border {
   }
 
   /* Terms & Condition and Privacy policy */
-  .privacyTems-page {
-    /* margin: 90px 0 35px; */
-    margin-top: 90px;
-  }
-
-  .privacyTems-page h1 {
-    margin-bottom: 20px;
-  }
-
+ 
   .homeBannerDesktop .homeBanner-content {
     max-width: 60%;
   }
@@ -5180,19 +5126,7 @@ img.wheel-border {
   }
 
   /* Terms & Condition and Privacy policy */
-  .privacyTems-page h1 {
-    margin-bottom: 15px;
-  }
-
-  .privacyTems-page h2 {
-    font-size: 20px;
-    margin: 10px 0 8px;
-  }
-
-  .privacyTems-page h3 {
-    font-size: 18px;
-  }
-
+ 
   /* vip-page */
   .fullVipBonus-leval .bottom-arrow .value-bg {
     background-position: center 5px;
@@ -5271,10 +5205,6 @@ img.wheel-border {
     margin-bottom: 10px;
   }
 
-  .privacyTems-page {
-    margin-top: 65px;
-  }
-
   .partner-revenue .revenue .yourProfit {
     font-size: 14px;
   }
@@ -5305,12 +5235,6 @@ img.wheel-border {
   img.wheel-stand {
     max-height: 110px;
     margin-top: -65px;
-  }
-
-  .privacyTems-page p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 10px;
   }
 
   .object-fit-fill {
@@ -5498,23 +5422,7 @@ img.wheel-border {
   }
 
   /* Terms & Condition and Privacy policy */
-  .privacyTems-page {
-    margin: 90px 0 25px;
-  }
-
-  .privacyTems-page h1 {
-    margin-bottom: 10px;
-  }
-
-  .privacyTems-page h2 {
-    font-size: 18px;
-    margin: 10px 0 8px;
-  }
-
-  .privacyTems-page h3 {
-    font-size: 16px;
-  }
-
+ 
   /* .privacyTems-page {
     margin: 65px 30px 35px 16px !important;
 } */
