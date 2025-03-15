@@ -2418,45 +2418,6 @@ footer.sideBarOpen {
   margin-top: 30px;
 }
 
-.invitation-bonus .invitationBonus-col {
-  background: linear-gradient(
-    110.11deg,
-    var(--gray-2100, #4a184b) 13.46%,
-    var(--gray-2100, #86188f) 88.34%
-  );
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.invitation-bonus .invitationBonus-col .invitationBonus-content {
-  padding: 0 0 0 40px;
-  max-width: 470px;
-}
-
-.invitation-bonus .invitationBonus-col .invitationBonus-content .title {
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
-  color: #ffd569;
-  margin-bottom: 15px;
-}
-
-.invitation-bonus .invitationBonus-col .invitationBonus-content p {
-  font-weight: 400;
-  font-size: clamp(16px, 1.4vw, 18px);
-  line-height: 22px;
-  color: #ffffff;
-}
-
-.invitation-bonus .invitationBonus-col .invitationBonus-img {
-  margin-right: 50px;
-}
-
-.invitation-bonus .invitationBonus-col .invitationBonus-img img {
-  max-width: 435px;
-}
 
 .achievement-bonus {
   background: linear-gradient(1.04deg, #2a0855 0.99%, #5c24a2 54.74%);
@@ -5336,11 +5297,6 @@ img.wheel-border {
   }
 
   /* referral-page */
-
-  .invitation-bonus {
-    margin-top: 40px;
-  }
-
   .achievement-bonus .cumulative-deposit {
     margin-top: 30px;
   }
@@ -5467,23 +5423,7 @@ img.wheel-border {
 
   /* referral-page */
 
-  .invitation-bonus .invitationBonus-col .invitationBonus-content .title {
-    margin-bottom: 10px;
-  }
-
-  .invitation-bonus .invitationBonus-col .invitationBonus-content {
-    padding: 15px;
-  }
-
-  .invitation-bonus .invitationBonus-col .invitationBonus-img {
-    margin-right: 0;
-  }
-
-  .invitation-bonus .invitationBonus-col .invitationBonus-img img {
-    max-width: 330px;
-  }
-
-  .achievement-bonus {
+   .achievement-bonus {
     padding: 30px 20px;
   }
 
@@ -5784,20 +5724,7 @@ img.wheel-border {
 
   /* referral-page */
 
-  .invitation-bonus .invitationBonus-col {
-    flex-direction: column;
-    align-items: initial;
-    padding: 20px;
-  }
-
-  .invitation-bonus .invitationBonus-col .invitationBonus-content {
-    padding: 0;
-    max-width: 100%;
-  }
-
-  .invitation-bonus .invitationBonus-col .invitationBonus-img img {
-    max-width: 100%;
-  }
+  
 
   .achievement-bonus {
     padding: 30px 25px;
