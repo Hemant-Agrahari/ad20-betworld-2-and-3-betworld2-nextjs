@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Tab } from '@mui/material'
 import { TabContext, TabList, TabPanel } from '@mui/lab'
-import { Statistics, ToInvite } from '@/component/Referral'
+import { Forms, Statistics, ToInvite } from '@/component/Referral'
 import { useRouter } from 'next/router'
 import { GetStaticProps } from 'next'
 import { commonStaticProps } from '@/utils/translation'
@@ -49,6 +49,12 @@ const Referral = () => {
               disableRipple
             />
             <Tab
+              label={t('Statistics')}
+              value="2"
+              className="statistics"
+              disableRipple
+            />
+            <Tab
               label={t('History')}
               value="3"
               className="forms"
@@ -57,6 +63,9 @@ const Referral = () => {
           </TabList>
           <TabPanel value="1">
             <ToInvite />
+          </TabPanel>
+          <TabPanel value="2">
+            <Forms />
           </TabPanel>
           <TabPanel value="3">
             <Statistics />

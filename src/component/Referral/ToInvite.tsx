@@ -4,6 +4,7 @@ import AwardsIssued from './AwardsIssued'
 import LeaderBoard from './LeaderBoard'
 import CommissionSection from './CommissionSection'
 import InvitationBonus from './InvitationBonus'
+import Blog from './Blog'
 
 const ToInvite = () => {
   return (
@@ -13,6 +14,7 @@ const ToInvite = () => {
       <InvitationBonus />
       <CommissionSection />
       <LeaderBoard />
+      <Blog />
     </>
   )
 }
