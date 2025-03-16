@@ -738,3 +738,10 @@ main .loginSignUp-btn .signUp-btn {
     height: auto;
   }
 }
+
+@media screen and (max-width:480px) {
+  .loginSignUp-btn .btn {
+    font-size: 12px;
+    padding: 7px 15px;
+  }
+}

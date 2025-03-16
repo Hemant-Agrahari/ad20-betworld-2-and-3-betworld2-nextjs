@@ -138,42 +138,19 @@ button {
 /*------ Header end ------*/
 
 /* ----------- Home Page CSS -------------*/
-.homeBannerDesktop {
-  position: relative;
-  max-height: 300px;
-}
+
 .homeBanner-slider .slick-slide img {
   object-fit: cover;
   max-width: 100%;
   max-height: 300px;
 }
-.homeBannerDesktop .homeBanner-content {
-  position: absolute;
-  top: 50%;
-  left: 65px;
-  transform: translateY(-50%);
-}
 
-.homeBannerDesktop .homeBanner-content .title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 31px;
-  color: #ffffff;
-}
 
-.homeBannerDesktop .homeBanner-content .title span {
-  color: #dd244a;
-}
 
-.homeBannerDesktop .homeBanner-content .price {
-  margin-top: 8px;
-  font-weight: 700;
-  font-size: 46px;
-  background: linear-gradient(90deg, #ffc700 0%, #ffea2b 20.31%, #ffc327 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 0 0 0 23px;
-}
+
+
+
+
 
 
 
@@ -209,22 +186,7 @@ button {
   border-radius: 10px;
 }
 
-/*---------- Tab Section CSS ----------*/
 
-.casino_header {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 25px;
-  color: #8990ae;
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-}
-
-.vector_img {
-  margin-right: 10px;
-  max-width: 22px;
-}
 
 .gamePagination {
   display: flex;
@@ -507,122 +469,14 @@ button {
   top: 0;
 }
 
-.sidbar-homePromo .MuiAccordion-root {
-  border-radius: 5px;
-  border-radius: 10px;
-  background: #2b2b2b;
-}
 
-.sidbar-homePromo .MuiAccordionSummary-root {
-  min-height: initial;
-  padding: 12px 7px;
-  /* background: linear-gradient(90deg, #420c29 0%, #420c29 100%);
-  background:var(--gray-300); */
-  /* border-radius: 5px; */
-  /* max-width: 82px;
-  margin: auto; */
-}
 
-.sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--gray-100);
-  font-weight: 500;
-}
-
-.sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content img {
-  margin-right: 5px;
-}
-
-.sidbar-homePromo .MuiAccordionSummary-expandIconWrapper {
-  /* height: 30px;
-  width: 30px; */
-  border-radius: 100%;
-  background-color: #420c2900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gray-100);
-}
-
-.sidbar-homePromo .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
-  background-color: #420c2900;
-}
-
-.sidbar-homePromo .MuiAccordionSummary-root.Mui-expanded {
-  min-height: initial;
-  border-radius: 5px;
-}
-
-.sidbar-homePromo .MuiCollapse-root {
-  padding: 0;
-}
-
-.sidbar-homePromo .MuiAccordionDetails-root {
-  padding: 0;
-}
-
-.sidbar-homePromo .sidbarHomePromo-content {
-  margin-block: 5px;
-  padding: 12px;
-  background: #222121;
-  border-radius: 12px;
-}
 
 .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-focusVisible {
   background-color: transparent !important;
 }
 
-/* .sidbar-homePromo .sidbarHomePromo-content .imgBox {
-  margin-bottom: 10px;
-} */
 
-.sidbar-homePromo .sidbarHomePromo-content .half-col {
-  display: flex;
-  justify-content: space-between;
-}
-
-.sidbar-homePromo .sidbarHomePromo-content .half-col .imgBox {
-  margin-left: 15px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-
-/* .sidbar-homePromo .sidbarHomePromo-content .half-col .imgBox img {
-  margin-top: 5px;
-} */
-
-.sidbar-homePromo .sidbarHomePromo-content .half-col .imgBox:first-child {
-  margin-left: 0;
-}
-
-.sidbar-homePromo .sidbarHomePromo-content .loadMore-btn {
-  text-align: center;
-  margin-top: 5px;
-}
-
-.sidbar-homePromo .sidbarHomePromo-content .loadMore-btn .btn {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  border: 1px solid #6458e3 !important;
-  border-radius: 8px;
-  /* width: 173px; */
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fff;
-  padding: 7px 20px;
-}
-
-.sidbar-homePromo .sidbarHomePromo-content .loadMore-btn .btn:hover,
-.sidbar-homePromo .sidbarHomePromo-content .loadMore-btn .btn:active {
-  background-color: #181c34;
-  border-color: transparent;
-}
 
 .sidebar-menu {
   margin: 15px 0 0;
@@ -1285,67 +1139,7 @@ footer.sideBarOpen {
   padding-inline: 10px;
 }
 
-.fullVipBonus-leval .bottom-arrow {
-  position: relative;
-  text-align: center;
-  font-size: 18pt;
-  flex: 1 1;
-  width: 0%;
-  margin: 0 3px;
-  background: linear-gradient(180deg, rgba(67, 75, 184, 0.3) 0%, #2d37ae 100%);
-  border-bottom: 1px solid rgb(18, 21, 57);
-  border-radius: 5px;
-}
 
-.fullVipBonus-leval .bottom-arrow:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 0;
-  height: 0;
-  border-top: 16px solid #121539;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-}
-
-.fullVipBonus-leval .bottom-arrow .value-bg {
-  background: linear-gradient(180deg, rgba(67, 75, 184, 0.3) 0%, #2d37ae 100%),
-    url(../../public/assets/images/vip_treasure1.png);
-  background-repeat: no-repeat;
-  background-position: center 9px;
-  background-size: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.fullVipBonus-leval .bottom-arrow .value-bg .value {
-  font-weight: 600;
-  font-size: 16px;
-  color: #fff;
-  padding: 17px 0 8px;
-}
-
-.fullVipBonus-leval .bottom-arrow .value-bg .value-r {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 18px;
-  padding-bottom: 4px;
-  color: #abb5e3;
-}
-
-.fullVipBonus-leval .bottom-arrow .lv {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 12px;
-  background: rgb(18, 21, 57);
-  border-radius: 0px 0px 5px 5px;
-  padding: 7px 0;
-  color: #abb5e3;
-}
 
 .Slider-vip-rank {
   -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
@@ -1855,45 +1649,6 @@ footer.sideBarOpen {
   margin: 0 7px;
 }
 
-
-.promoRequirement-row {
-  display: flex;
-  align-items: center;
-}
-
-.promoRequirement-row .requirement-col {
-  flex: 1;
-  background: linear-gradient(100.65deg, #3971e8 2.29%, #5846c7 100%);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 205px;
-  margin-left: 25px;
-  flex-direction: column;
-  padding: 15px 10px;
-}
-
-.promoRequirement-row .requirement-col:first-child {
-  margin-left: 0;
-}
-
-.promoRequirement-row .requirement-col .requirementCol-title {
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  color: #fff96a;
-  margin-bottom: 20px;
-}
-
-.promoRequirement-row .requirement-col .requirementCol-text {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 32px;
-  color: #ffffff;
-}
-
 .withdraw-first #mui-component-select-currency,
 .withdraw-first svg {
   color: #fff !important;
@@ -1972,10 +1727,7 @@ main.sideBarOpen iframe {
   margin: 0 auto;
 }
 
-.promotionsSix .promoRequirement-row .requirement-col .requirementCol-text {
-  font-size: 23px;
-  line-height: 28px;
-}
+
 
 /* Deposit Pesronal Center --------- */
 .deposit_PC input[type='search']:focus {
@@ -2422,14 +2174,6 @@ img.wheel-border {
 }
 
 
-.sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  margin-left: 17px;
-  border-radius: 5px;
-  background-repeat: no-repeat;
-}
 
 .sidebar-menu li a,
 .side-bar-para {
@@ -2471,26 +2215,6 @@ img.wheel-border {
 
 .side-bar-para svg {
   margin-right: 6px;
-}
-
-/* .sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content {
-  flex-direction: column;
-} */
-.sidbar-homePromo {
-  width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  padding-top: 0;
-  height: auto;
-  align-items: baseline;
-  color: #fff;
-  margin-bottom: 14px;
-}
-
-.sidbar-homePromo .MuiAccordion-root {
-  width: 100%;
 }
 
 .bg-gray-400 {
@@ -2567,11 +2291,6 @@ img.wheel-border {
     margin-left: 280px;
   }
 
-  .sidebar-menu li a,
-  .side-bar-para,
-  .sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content {
-    font-size: clamp(14px, 1vw, 14px);
-  }
 }
 
 @media screen and (max-width: 1299px) {
@@ -2712,26 +2431,6 @@ img.wheel-border {
   .fooSponsor li img {
     max-width: initial;
   }
-
-  /* referral-page */
-
-  /* promotions */
-
-  .promoRequirement-row .requirement-col .requirementCol-text br {
-    display: none;
-  }
-
-  /* vip-page */
-  .fullVipBonus-leval .bottom-arrow .value-bg {
-    background-position: center 7px;
-    background-size: 40px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .value-bg .value {
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: 700;
-  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -2746,15 +2445,9 @@ img.wheel-border {
     /* background: #420c29; */
   }
   /* home page */
-  .homeBannerDesktop .homeBanner-content .title {
-    font-size: 18px;
-    line-height: 20px;
-  }
+ 
 
-  .homeBannerDesktop .homeBanner-content .price {
-    font-size: 36px;
-    padding: 0 0 0 15px;
-  }
+
 
   .homeTabPromotion-content {
     margin: 0 -9px;
@@ -2783,40 +2476,9 @@ img.wheel-border {
   .promo-activeUser {
     margin-top: 40px;
   }
-
-  .promo-achievementBonus {
-    margin-top: 25px;
-  }
-
   .promo-activeUser .promoActiveUser-titleText {
     margin: 0 auto 55px;
   }
-
-  .promoRequirement-row .requirement-col {
-    padding: 15px 20px;
-    min-height: 175px;
-  }
-
-  .promoRequirement-row .requirement-col .requirementCol-title {
-    margin-bottom: 12px;
-  }
-
-  .promoRequirement-row .requirement-col .requirementCol-text {
-    font-size: 23px;
-    line-height: 28px;
-  }
-
-  .promotionsSix .promoRequirement-row .requirement-col .requirementCol-text {
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  /* Terms & Condition and Privacy policy */
-
-  .homeBannerDesktop .homeBanner-content {
-    max-width: 60%;
-  }
-
   .profit-graph-section {
     flex-direction: column;
     gap: 15px;
@@ -2836,10 +2498,6 @@ img.wheel-border {
   .BannerBigHomeSlider {
     height: 173px;
     object-fit: fill;
-  }
-
-  .homeBannerDesktop .homeBanner-content {
-    top: 50%;
   }
 }
 
@@ -2887,18 +2545,7 @@ img.wheel-border {
   }
 
   /* home page */
-  .homeBannerDesktop .homeBanner-content {
-    left: 25px;
-  }
 
-  .homeBannerDesktop .homeBanner-content .title {
-    max-width: 130px;
-  }
-
-  .homeBannerDesktop .homeBanner-content .price {
-    font-size: 30px;
-    padding: 0;
-  }
 
   .homeBanner-slider ul.slick-dots {
     top: 75% !important;
@@ -2989,14 +2636,7 @@ img.wheel-border {
     display: none;
   }
 
-  .promoRequirement-row {
-    flex-direction: column;
-  }
 
-  .promoRequirement-row .requirement-col {
-    width: 100%;
-    margin: 0 0 15px 0;
-  }
 
   .hpMenu-top-vip .user-levelScore .userScore {
     margin-left: 0;
@@ -3027,12 +2667,6 @@ img.wheel-border {
   /* home page top banner*/
   .homeBanner-content .bannerHeading {
     font-size: 14px !important;
-  }
-
-
-
-  .homeBannerDesktop .homeBanner-content {
-    max-width: 60%;
   }
 
   .homeBanner-content .bannerHeading {
@@ -3129,30 +2763,6 @@ img.wheel-border {
     font-size: 0.94em;
   }
 
-  /* promotions */
-  /* vip-page */
-  .fullVipBonus-leval .bottom-arrow .value-bg {
-    background-position: center 5px;
-    background-size: 23px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .value-bg .value {
-    font-size: 11px;
-    line-height: 11px;
-    padding: 7px 0 3px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .value-bg .value-r {
-    font-size: 13px;
-    line-height: 13px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .lv {
-    font-size: 10px;
-    line-height: 10px;
-    padding: 4px 0;
-  }
-
   .bonus-date .MuiFormControl-root.invitationBonus {
     margin-left: 6px;
     width: 213px;
@@ -3160,11 +2770,6 @@ img.wheel-border {
 
   .apexcharts-legend.apexcharts-align-center.apx-legend-position-right {
     right: 25px !important;
-  }
-
-  .hpMenu-botm {
-    gap: 10px;
-    padding-inline: 0px !important;
   }
 
   .base-Popper-root.css-advny6-MuiPopper-root {
@@ -3232,23 +2837,6 @@ img.wheel-border {
 }
 
 @media screen and (max-width: 480px) {
-  /* header */
-  .loginSignUp-btn .btn {
-    font-size: 12px;
-    padding: 7px 15px;
-  }
-  /* home page */
-
-  .homeBannerDesktop .homeBanner-content .title {
-    max-width: 120px;
-    font-size: 16px;
-    line-height: 18px;
-  }
-
-  .homeBannerDesktop .homeBanner-content .price {
-    font-size: 23px;
-  }
-
   .homeTabPromotion-content {
     margin: 0;
   }
@@ -3275,52 +2863,6 @@ img.wheel-border {
     width: 320px !important;
   }
 
-  .bottom-arrow {
-    margin: 5px 1%;
-  }
-
-  /* promotions */
-  .promo-achievementBonus .user-bonus .userBonus-col.title .user,
-  .promo-achievementBonus .user-bonus .userBonus-col.title .bonus {
-    font-size: 14px;
-    line-height: 17px;
-  }
-
-  .promoRequirement-row .requirement-col .requirementCol-text {
-    font-size: 26px;
-    line-height: 32px;
-  }
-  .fullVipBonus-leval .bottom-arrow:after {
-    border-top: 9px solid #121539;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .value-bg {
-    background-position: center 5px;
-    background-size: 18px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .value-bg .value {
-    font-size: 7px;
-    line-height: 8px;
-    padding: 5px 0 1px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .value-bg .value-r {
-    font-size: 10px;
-    line-height: 10px;
-  }
-
-  .fullVipBonus-leval .bottom-arrow .lv {
-    font-size: 7px;
-    line-height: 7px;
-    padding: 3px 0;
-  }
-
-  .homeBannerDesktop .homeBanner-content {
-    left: 25px;
-  }
 }
 
 .search-input {
@@ -3338,65 +2880,6 @@ img.wheel-border {
   width: 177px !important;
   font-weight: 600 !important;
   font-size: 16px !important;
-}
-
-.slider_search_bar input {
-  font-size: clamp(14px, 1vw, 14px);
-}
-
-.sidbar-homePromo .MuiAccordion-root span {
-  margin-left: 7px;
-  color: #ffff;
-}
-
-.side_accordian_main {
-  border-radius: 10px;
-  background: #2b2b2b;
-}
-
-/* side bar new */
-.home-section {
-  position: relative;
-  background: #e4e9f7;
-  height: 100vh;
-  left: 260px;
-  width: calc(100% - 260px);
-  transition: all 0.5s ease;
-}
-
-.sidebar.close ~ .home-section {
-  left: 78px;
-  width: calc(100% - 78px);
-}
-
-.home-section .home-content {
-  height: 60px;
-  display: flex;
-  align-items: center;
-}
-
-.home-section .home-content .bx-menu,
-.home-section .home-content .text {
-  color: #11101d;
-  font-size: 35px;
-}
-
-.home-section .home-content .bx-menu {
-  margin: 0 15px;
-  cursor: pointer;
-}
-
-.home-section .home-content .text {
-  font-size: 26px;
-  font-weight: 600;
-}
-
-.subGameActive {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
 }
 
 .games.active,
