@@ -117,6 +117,24 @@
   text-align: center;
 }
 
+.tab-title {
+  border-left: 6px solid #4473e9;
+  background: linear-gradient(90deg, #000 0%, #23232300 100%);
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 410px;
+}
+
+.tab-title h4 {
+  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  font-size: clamp(18px, 1.8vw, 20px);
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1629px) {
   .homeTabContent-col h6 {
     min-height: 43px;

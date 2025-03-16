@@ -263,15 +263,6 @@ button {
   background-color: #272c4b;
 }
 
-/* ----------- Home Page CSS END -------------*/
-
-/* --- MODAL SIGN IN & SIGN UP --- */
-
-.modal .modal_closebtn {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .MuiOutlinedInput-notchedOutline {
   border-color: var(--gray-300) !important;
 }
@@ -1061,25 +1052,6 @@ footer.sideBarOpen {
 /*----- footer end -----*/
 
 /*---------- Wallet Modal CSS ---------- */
-.depoWithdro-tabContainer {
-  padding: 20px;
-  background-color: var(--gray-700, #5c2242);
-}
-
-.depoWithdro-tabContainer .MuiOutlinedInput-root {
-  background-color: var(--gray-600, #420c29);
-  border: 1px solid var(--gray-300, #420c29);
-  border-radius: 8px;
-}
-
-.depoWithdro-tabContainer
-  .MuiOutlinedInput-root
-  .MuiOutlinedInput-notchedOutline {
-  border: 0;
-  border-radius: 10px;
-}
-
-
 
 .cashBack-slider {
   margin-top: 8px;
@@ -1301,24 +1273,6 @@ footer.sideBarOpen {
   margin: 17px 3px !important;
 }
 
-.WalletModaluniversal .MuiDialog-paper {
-  width: 95%;
-  max-width: 465px !important;
-  background: rgb(24, 31, 43);
-  border-radius: 10px;
-  margin: 10px 5px 10px;
-  overflow: initial;
-}
-
-.WalletModaluniversal .modal_closebtn {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  color: #7f8aba;
-  cursor: pointer;
-  z-index: 1;
-}
-
 .withdraw-second .withdrawBack {
   color: #fff;
 }
@@ -1327,107 +1281,8 @@ footer.sideBarOpen {
   color: #d73a50;
 }
 
-.affiliateModal .MuiDialog-paper {
-  width: 95%;
-  max-width: 465px !important;
-  background: var(--gray-500, #5c2242);
-  border-radius: 10px;
-  margin: 10px 5px 10px;
-  overflow: initial;
-}
-
-.coinPaymentModal .MuiDialog-paper {
-  background: #5c2242;
-  background-color: var(--gray-700, #31001b);
-}
-
-.coinPaymentModal .modal_header {
-  padding: 15px 20px;
-  color: #fff;
-  text-align: center;
-  background-color: #31001b;
-  background-color: var(--gray-700, #31001b);
-}
-
 .MuiBox-root input {
   padding-inline: 10px;
-}
-
-/* Vip Page RANK ====== */
-
-.hpMenu-top-vip .user-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: linear-gradient(107.38deg, #16264a 5.92%, #152854 100%);
-  border-radius: 10px;
-  padding: 7px 20px;
-}
-
-.hpMenu-top-vip .user-info .user-img {
-  width: 33px;
-  height: 33px;
-  background-color: #667bff;
-  border-radius: 100%;
-}
-
-.hpMenu-top-vip .user-info .user-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hpMenu-top-vip .user-info .user-name {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-}
-
-.hpMenu-top-vip .user-info .userCopy-btn {
-  background-color: #2b54e6;
-  border-radius: 4px;
-  background-image: url(../../public/assets/images/userCopy-iocn.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 32px;
-  height: 31px;
-}
-
-.hpMenu-top-vip .user-info .userCopy-btn:hover {
-  background-color: #6587ff;
-}
-
-/* Full Vip Page ====== */
-
-.hpMenu-top-Fullvip .user-info .user-img {
-  width: 33px;
-  height: 33px;
-  background-color: #667bff;
-  border-radius: 100%;
-}
-
-.hpMenu-top-Fullvip .user-info .user-img img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hpMenu-top-Fullvip .user-info .user-name {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-}
-
-.hpMenu-top-Fullvip .user-info .userCopy-btn {
-  background-color: #2b54e6;
-  border-radius: 4px;
-  background-image: url(../../public/assets/images/userCopy-iocn.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 32px;
-  height: 31px;
 }
 
 .fullVipBonus-leval .bottom-arrow {
@@ -2282,9 +2137,7 @@ main.sideBarOpen iframe {
   padding: 11px 14px 9.5px 0px;
 }
 
-.faq-accordian .css-1betqn-MuiAccordionSummary-content {
-  align-items: center;
-}
+
 
 /*--------- Google Translate Code ------ */
 .VIpgJd-ZVi9od-ORHb-OEVmcd {
@@ -2511,43 +2364,6 @@ div#goog-gt- {
   margin-right: 12px;
 }
 
-/* .search-input.my-1 {
-  padding: clamp(10px, 1.6vw, 20px) clamp(0px, 1.6vw, 20px);
-} */
-
-/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
-  -webkit-text-fill-color: white !important;
-}
-
-/* Privacy policy */
-.page-search-pop-wrap {
-  position: absolute;
-  top: -100%;
-  width: 100%;
-  background: #31001b;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: clamp(5px, 2vw, 30px);
-  top: -100%;
-  transition: all 0.3s ease-in-out;
-  z-index: 2;
-}
-
-.page-search-pop-wrap.show {
-  top: 0px;
-}
-
-/* .privacyTems-page {
-  margin: 65px 0 35px 16px;
-} */
-
-/* wheel css */
-
-canvas#wheel {
-  inset: 0 !important;
-  margin: auto !important;
-  border: none;
-}
-
 ._28Wol {
   background-color: initial !important;
   background-image: url(../../public/assets/images/wheel-border2.png);
@@ -2605,53 +2421,14 @@ img.wheel-border {
   max-width: min(95%, 1920px) !important;
 }
 
-.game-list {
-  display: flex !important;
-  flex-wrap: nowrap;
-  gap: 15px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  padding: clamp(0px, 1vw, 15px) clamp(0px, 1vw, 15px);
-  margin-bottom: 0 !important;
-  border-bottom: 0;
-  /* background-color: var(--gray-400); */
-}
 
-.tab-title h4 {
-  background: linear-gradient(90deg, #4473e9 0%, #7e43de 98.45%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 0;
-  font-size: clamp(18px, 1.8vw, 20px);
-  font-weight: 600;
-}
-
-.tab-title {
-  border-left: 6px solid #4473e9;
-  background: linear-gradient(90deg, #000 0%, #23232300 100%);
-  padding: 12px 24px;
-  width: 100%;
-  max-width: 410px;
-}
-
-/* ul.sidebar-menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  padding: 5px;
-  background-color: var(--gray-400);
-} */
 .sidbar-homePromo .MuiAccordionSummary-root .MuiAccordionSummary-content {
   margin: 0;
   display: flex;
   align-items: center;
-  /* font-size: 12px; */
   margin-left: 17px;
   border-radius: 5px;
   background-repeat: no-repeat;
-  /* background-color: var( --gray-300); */
 }
 
 .sidebar-menu li a,
@@ -2752,24 +2529,6 @@ img.wheel-border {
 .divOne .loginSignUp-btn {
   margin-top: 7px;
   margin-bottom: 22px;
-}
-
-.faq-accordian .MuiSvgIcon-root {
-  background: linear-gradient(90deg, #7e43de 0%, #4473e9 98.45%);
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4zm-1-5C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg>')
-    no-repeat center;
-  -webkit-mask-size: cover;
-  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4zm-1-5C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg>')
-    no-repeat center;
-}
-
-.faq-accordian .Mui-expanded .MuiSvgIcon-root {
-  background: linear-gradient(90deg, #7e43de 0%, #4473e9 98.45%);
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 11v2h10v-2zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg>')
-    no-repeat center;
-  -webkit-mask-size: cover;
-  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 11v2h10v-2zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8"></path></svg>')
-    no-repeat center;
 }
 
 /*===================================================================
@@ -3478,14 +3237,6 @@ img.wheel-border {
     font-size: 12px;
     padding: 7px 15px;
   }
-
-  /* wallet modal */
-
-
-  .depoWithdro-tabContainer {
-    padding: 10px;
-  }
-
   /* home page */
 
   .homeBannerDesktop .homeBanner-content .title {
@@ -3589,10 +3340,6 @@ img.wheel-border {
   font-size: 16px !important;
 }
 
-.afterLogin .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
-  padding: 11px 0 !important;
-}
-
 .slider_search_bar input {
   font-size: clamp(14px, 1vw, 14px);
 }
@@ -3681,9 +3428,7 @@ img.wheel-border {
   padding-block: clamp(50px, 6vw, 100px);
 }
 
-.privacyTems-page .css-19kzrtu {
-  padding: 0 12px;
-}
+
 
 .sidebar .search-input .css-u9pgfk-MuiInputBase-root-MuiOutlinedInput-root {
   width: 100% !important;
@@ -3709,11 +3454,6 @@ img.wheel-border {
   height: 1.9em;
   font-size: 14px;
   font-weight: 600;
-}
-
-.promotionBnrImg {
-  display: block;
-  margin-inline: auto;
 }
 
 .css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
