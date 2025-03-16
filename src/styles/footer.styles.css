@@ -140,6 +140,15 @@ footer .fooLink-desktop .fooSocial .w-75 {
   margin-top: 12px;
 }
 
+.social_icons_wrapper_mobile {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #4d4d4d;
+  padding-top: 25px;
+  margin-top: 12px;
+}
+
+
 .social_icons_wrapper .social_icons_media {
   display: flex;
   justify-content: space-around;

@@ -1190,49 +1190,6 @@ footer.sideBarOpen {
   border: 0;
 }
 
-.fillInThe .modal-btn-deposit {
-  padding: 2px;
-  background: #a2246b;
-  border-radius: 10px;
-  color: #fff;
-  border: 1px solid #a2246b;
-  font-size: 14px;
-  font-weight: 700;
-  font-size: 14px;
-  width: 165px;
-  line-height: 17px;
-}
-
-/*----------- Chrome TO Safari Modal CSS ---------- */
-.chrome-to-safari-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.btnClose_safari_modal {
-  display: flex;
-}
-
-.safari_btns {
-  position: absolute;
-  right: -8px;
-  top: -6px;
-  background: #000;
-  color: gray;
-  border-radius: 50%;
-}
-
-.closeBtnSsafari {
-  position: absolute;
-  top: -16px;
-  right: -10px;
-  background-color: #181f2b;
-  padding: 5px 6px;
-  border-radius: 20px;
-}
-
 /*---------- Promotio Secondn Modal  ----------*/
 
 .promoModal-slider .slick-slide {
@@ -1268,30 +1225,6 @@ footer.sideBarOpen {
 }
 
 /*---------- SignUp Modal CSS ----------*/
-.signUpModaluniversal .MuiDialog-paper {
-  width: 95%;
-  max-width: 465px !important;
-  background: var(--gray-700);
-  border-radius: 10px;
-  padding: 15px clamp(20px, 3vw, 40px) 30px;
-  margin: 10px 5px 10px;
-  overflow: initial;
-}
-
-.signUpModaluniversal .modal_closebtn {
-  position: absolute;
-  right: -20px;
-  top: -6px;
-  color: #7f8aba;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.avatar-modal.signUpModaluniversal .modal_closebtn {
-  right: 0px;
-  top: 0px;
-}
-
 .react-datepicker__header {
   background: var(--gray-600, #6e274ef2) !important;
   border: none !important;
@@ -2038,67 +1971,15 @@ footer.sideBarOpen {
 /* -------------- Notification Sidebar css ------ */
 
 /*---------- Promotion first page start ----------*/
-.promo-banner {
-  background: linear-gradient(
-    96.05deg,
-    #35acef 7.8%,
-    #6f0865 58.73%,
-    rgba(58, 124, 234, 0) 63.93%
-  );
-  border-radius: 10px;
-  position: relative;
-  height: 280px;
-  display: flex;
-  align-items: center;
-  margin-top: 105px;
-  border-radius: 10px;
-  overflow: hidden;
-}
 
-.promo-banner::after {
-  position: absolute;
-  content: '';
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-  z-index: -1;
-}
 
-.promo-banner.promoFirst-banner:after {
-  background-image: url(../../public/assets/images/distributor-Benefits.png);
-  background-color: #6f0865;
-}
+
 
 .millions-distributor {
   margin-top: 35px;
 }
 
-.promoPage-sectionTitle {
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 15px;
-}
 
-.promoPage-sectionTitle span {
-  color: #fff;
-  margin: 0 7px;
-}
-
-.promoPage-sectionTitleText {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #fff;
-  max-width: 950px;
-  margin: 0 auto 35px;
-}
 
 .promo-activeUser {
   margin-top: 50px;
@@ -2119,9 +2000,6 @@ footer.sideBarOpen {
   margin: 0 7px;
 }
 
-.promo-requirement .promoPage-sectionTitle {
-  margin-bottom: 25px;
-}
 
 .promoRequirement-row {
   display: flex;
@@ -2161,23 +2039,6 @@ footer.sideBarOpen {
   color: #ffffff;
 }
 
-.promo-rules {
-  margin: 60px 0 40px;
-  margin-inline: auto;
-}
-
-.promo-rules ul {
-  padding: 0;
-}
-
-.promo-rules .promoRules-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #fff;
-  margin-bottom: 25px;
-}
-
 .withdraw-first #mui-component-select-currency,
 .withdraw-first svg {
   color: #fff !important;
@@ -2201,14 +2062,7 @@ main.sideBarOpen iframe {
   color: #fff !important;
 }
 
-.promo-rules .promoRules-ul p,
-ul.promoRules-ul * {
-  font-weight: 400;
-  font-size: clamp(14px, 1.6vw, 17px);
-  line-height: 25px;
-  color: #b5b5b5;
-  margin-bottom: 10px;
-}
+
 
 /* Deposit Center pagination Button --------------- */
 .paginationButton {
@@ -2585,30 +2439,11 @@ div#goog-gt- {
 }
 
 /* --------- Swiper CSS STARTS ---------- */
-.offering .swiper {
-  padding: 15px 10px;
-}
 
-.offering .swiper-button-prev,
-.swiper-button-next {
-  top: 48px !important;
-  background-color: rgb(211, 47, 47);
-  padding: 0px 30px;
-  border: 1px solid white;
-  border-radius: 9px;
-  height: 28px !important;
-}
 
-.offering .swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 13px !important;
-  color: #fff;
-}
 
-.offering .swiper-button-prev {
-  left: calc(100% - 150px);
-  right: unset !important;
-}
+
+
 
 .horizontal-lines {
   display: flex;
@@ -3182,31 +3017,9 @@ img.wheel-border {
   /* referral-page */
 
   /* promotions */
-  .promo-banner {
-    height: 205px;
-    margin-top: 90px;
-  }
 
-  .promo-banner::after {
-    background-size: contain;
-  }
 
-  .promo-banner.promoSix-banner {
-    background: linear-gradient(
-      96.05deg,
-      #3971e8 7.8%,
-      #377eec 58.73%,
-      rgb(55 126 236) 63.93%
-    );
-  }
 
-  .promo-banner.promoSix-banner:after {
-    z-index: 1;
-  }
-
-  .promoPage-sectionTitleText {
-    margin: 0 auto 50px;
-  }
 
   .promo-activeUser {
     margin-top: 40px;
@@ -3232,10 +3045,6 @@ img.wheel-border {
   .promoRequirement-row .requirement-col .requirementCol-text {
     font-size: 23px;
     line-height: 28px;
-  }
-
-  .promo-rules {
-    margin: 40px 0;
   }
 
   .promotionsSix .promoRequirement-row .requirement-col .requirementCol-text {
@@ -3410,9 +3219,6 @@ img.wheel-border {
 
   /* promotions */
 
-  .promo-achievementBonus .promoPage-sectionTitle {
-    margin-bottom: 20px;
-  }
 
   .promo-activeUser .promoActiveUser-titleText {
     margin: 0 auto 45px;
@@ -3431,15 +3237,6 @@ img.wheel-border {
   .promoRequirement-row .requirement-col {
     width: 100%;
     margin: 0 0 15px 0;
-  }
-
-  .promo-rules {
-    margin: 30px 0;
-  }
-
-  .promo-rules .promoRules-ul li {
-    font-size: 16px;
-    line-height: 20px;
   }
 
   .hpMenu-top-vip .user-levelScore .userScore {
@@ -3574,14 +3371,6 @@ img.wheel-border {
   }
 
   /* promotions */
-  .promoBanner-title {
-    max-width: 260px;
-  }
-
-  .promo-banner.promoSix-banner:after {
-    background-position: 200px 0;
-  }
-
   /* vip-page */
   .fullVipBonus-leval .bottom-arrow .value-bg {
     background-position: center 5px;
@@ -3723,10 +3512,7 @@ img.wheel-border {
   }
 
   /* fix Pix button */
-  .modal-btn-deposit {
-    font-size: 14px !important;
-    padding: 0px !important;
-  }
+
 
   .deposit-bottomTxt {
     display: flex;
@@ -3742,36 +3528,7 @@ img.wheel-border {
     margin: 5px 1%;
   }
 
-  /* referral-page */
-
   /* promotions */
-  .promo-banner {
-    height: 178px;
-  }
-
-  .promo-banner::after {
-    background-size: 100% 100%;
-  }
-
-  .promoBanner-title {
-    max-width: 190px;
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .promo-banner.promoSix-banner:after {
-    background-position: 85px 0;
-  }
-
-  .promoPage-sectionTitle {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .promoPage-sectionTitle span {
-    margin: 0 3px;
-  }
-
   .promo-achievementBonus .user-bonus .userBonus-col.title .user,
   .promo-achievementBonus .user-bonus .userBonus-col.title .bonus {
     font-size: 14px;
@@ -3782,22 +3539,6 @@ img.wheel-border {
     font-size: 26px;
     line-height: 32px;
   }
-
-  .promo-rules .promoRules-title {
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 20px;
-  }
-
-  .promo-rules .promoRules-ul li {
-    font-size: 15px;
-    line-height: 18px;
-  }
-
-  .rdrMonths .rdrMonth {
-    width: 100%;
-  }
-
   .fullVipBonus-leval .bottom-arrow:after {
     border-top: 9px solid #121539;
     border-left: 6px solid transparent;
@@ -3826,19 +3567,6 @@ img.wheel-border {
     padding: 3px 0;
   }
 
-  /* Swiper Slider css ------ */
-  .offering .swiper-button-prev {
-    left: calc(100% - 90px) !important;
-    right: unset !important;
-    /* position: fixed; */
-  }
-
-  .offering .swiper-button-prev,
-  .swiper-button-next {
-    padding: 0px 16px !important;
-    position: absolute;
-  }
-
   .homeBannerDesktop .homeBanner-content {
     left: 25px;
   }
@@ -3865,104 +3593,8 @@ img.wheel-border {
   padding: 11px 0 !important;
 }
 
-.gamesTypeSlider-container {
-  margin-top: 30px;
-  margin-bottom: 14px;
-  width: 100%;
-  background: linear-gradient(90deg, #7e43de 0%, #4473e9 98.45%);
-  border-radius: 8px;
-}
-
-.gamesTypeSlider {
-  position: relative !important;
-  top: 7px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  /* Adjust 100px based on your design */
-
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-
-  gap: 10px;
-  /* Gap between each item */
-}
-
-.gamesTypeSlider .slick-list .slick-slide {
-  max-width: max-content !important;
-}
-
-.gameTypeName {
-  background-color: transparent;
-  justify-self: center;
-  border: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: capitalize;
-  color: #ffffff;
-  padding-inline: 5px;
-  padding-block: 7px;
-  position: relative;
-  border-radius: 4px;
-  margin: auto;
-  margin-block: 8px;
-  text-align: center;
-}
-
-.gamesTypeSlider button {
-  display: none !important;
-}
-
-.gameTypeName.activeGame {
-  background: #7e43de;
-}
-
-@media (max-width: 430px) {
-  .gamesTypeSlider .slick-list .slick-track {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-}
-
 .slider_search_bar input {
   font-size: clamp(14px, 1vw, 14px);
-}
-
-.social_icons_wrapper_mobile {
-  display: flex;
-  justify-content: space-around;
-  border-top: 1px solid #4d4d4d;
-  padding-top: 25px;
-  margin-top: 12px;
-}
-
-.gamesTypeSlider-wrapper .slick-arrow.slick-prev {
-  left: 12px;
-  top: 26px;
-  z-index: 1;
-}
-
-.gamesTypeSlider-wrapper .slick-arrow.slick-next {
-  right: 17px;
-  top: 26px;
-  z-index: 1;
-}
-
-.gamesTypeSlider-wrapper .slick-arrow.slick-prev::before,
-.slick-arrow.slick-next:before {
-  padding-inline: 9px;
-  border-radius: 25%;
-  color: black;
-  font-weight: 900;
-  position: relative;
-  top: -2px;
-}
-
-.gamesTypeSlider-wrapper .slick-arrow.slick-prev::before {
-  content: '❮';
-}
-
-.gamesTypeSlider-wrapper .slick-arrow.slick-next::before {
-  content: '❯';
 }
 
 .sidbar-homePromo .MuiAccordion-root span {
@@ -3975,50 +3607,7 @@ img.wheel-border {
   background: #2b2b2b;
 }
 
-.games_types_wrapper {
-  background: #3a3a3a;
-  padding: 0 clamp(10px, 1.2vw, 16px);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.games_types_wrapper .games_type .game_name {
-  color: var(--gray-100);
-  position: relative;
-  top: 1px;
-}
-
-.games_types_wrapper .games_type .game_name_active {
-  background: linear-gradient(90deg, #7e43de 0%, #4473e9 98.45%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-  top: 1px;
-}
-
-.games_types_wrapper .games_type .game_icon_active {
-  filter: unset;
-}
-
-.games_types_wrapper .games_type .game_icon {
-  filter: invert(49%) sepia(0%) saturate(48%) hue-rotate(-5deg) brightness(153%)
-    contrast(164%);
-}
-
-.games_types_wrapper .games_type {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-  /* margin-bottom: 16px; */
-  padding: 12px 12px 12px 15px;
-  border: 1px solid transparent;
-  border-radius: 0;
-  display: block;
-  text-decoration: none;
-}
-
 /* side bar new */
-
 .home-section {
   position: relative;
   background: #e4e9f7;

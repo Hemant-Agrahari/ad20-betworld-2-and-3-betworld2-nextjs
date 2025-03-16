@@ -99,6 +99,24 @@
   border-radius: 10px;
 }
 
+.gameTypeName {
+  background-color: transparent;
+  justify-self: center;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-inline: 5px;
+  padding-block: 7px;
+  position: relative;
+  border-radius: 4px;
+  margin: auto;
+  margin-block: 8px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1629px) {
   .homeTabContent-col h6 {
     min-height: 43px;
